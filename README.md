@@ -37,7 +37,7 @@ With a properly configured virtual environment in place, checkout this repositor
 The Python version for Django 5.2 should be at least `3.11`.  It will most likely be
 `3.12` or later.  Once you verify your Python version is correct, run:
 
-    cd ~/django_project/market
+    cd ~/django_projects/market
     pip install --upgrade pip
     pip install -r requirements52.txt
     python -m django --version
