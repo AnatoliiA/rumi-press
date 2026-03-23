@@ -23,18 +23,6 @@
 
 Django==5.2.9
 
-# If you are not running on MySQL you can keep just use SQLite for everything.
-
-# If you want to use MySQL, and are not running on PythonAnywhere
-# there are some manual steps before you can install mysqlclient with pip.
-
-# The line below only installs the Django mysql support on Linux systems (i.e. like PythonAnywhere)
-
-mysqlclient==2.2.7; sys_platform == 'linux'
-
-# See this web site for details:
-#   https://pypi.org/project/mysqlclient/
-
 asgiref==3.11.0
 beautifulsoup4==4.14.3
 certifi==2025.11.12

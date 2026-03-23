@@ -67,53 +67,9 @@ You should not continue with these instructions until `python manage.py check` r
 Running on PythonAnywhere
 -------------------------
 
-We are going to switch your application on PythonAnywhere from using an
-SQLite database to a MySQL database for the rest of this course.  If you keep using
-SQLite and your application stores too much data it will start to slow down.
-
-**Note** If you are running this on a local computer you can just use SQLite as it is
-very fast when run on a real hard drive.  If you are installing locally, skip this
-section and go to "Initializing your Database".
-
-To use MySQL, first go to the `Databases` tab in PythonAnywhere. Set a database password
-that is different from your PythonAnywhwere password and different from any password
-you use on other other system.
-
-Make a MySQL database named `market` and choose a name and password and write them down.
-Edit `~/django_projects/market/config/settings.py` and find the existing
-SQLite value for the `DATABASES` variable and comment it out.
-
-    # DATABASES = {
-    #     'default': {
-    #         'ENGINE': 'django.db.backends.sqlite3',
-    #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    #     }
-    # }
-
-Add (or update) an entry to point Django at your newly created MySQL database.  In this example
-DATABASES value, your PythonAnywhere account is `drchuck` and the database you
-created is `market` and the password you set for the database is `phone_153742`.
-Change the sample values below to match the values for your MySQL database.
-
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'drchuck$market',
-            'USER': 'drchuck',
-            'PASSWORD': 'phone_153742',
-            'HOST': 'drchuck.mysql.pythonanywhere-services.com',
-             'OPTIONS': {
-                'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-            },
-        }
-    }
-
-Once you have made the changes to `~/django_projects/market/config/settings.py` 
-run 
-
-    python manage.py check
-
-until there are no errors.
+This project uses SQLite (`db.sqlite3` in the project root). The database is configured
+in `config/settings.py` under `DATABASES`. No extra database setup is required on
+PythonAnywhere beyond the steps in "Initializing your Database".
 
 If you are installing this to be submitted to the DJ4E autograder - make sure to launch the
 autograder and check if there are additional requirements like adding a particular
