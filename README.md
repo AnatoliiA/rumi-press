@@ -9,6 +9,12 @@ There is a video walkthrough of these instructions
 at <a href="https://youtu.be/a3CODtpZCLM" target="_blank">Installing the initial
 version of DJ4E Marketplace from github</a>.
 
+NOTE: As of January 2026, PythonAnywhere <a href="https://blog.pythonanywhere.com/221/"
+target="_blank">removed MySQL from their free accounts</a> used for this course.
+As such we will use SQLite for the marketplace series of applications.  If
+you started with MySQL using a pre-January 2026 PythonAnywhere account you
+can continue to use MySQL.
+
 In order to keep this application working across multiple versions of Django,
 the default branch of this repository is `django52`.  In the future this will
 allow the repository to simultaneously support multiple versions of Django
@@ -95,7 +101,7 @@ Under the Web tab, update the config files to point to your new project:
     Source code:                /home/--your-account--/django_projects/market
     Working Directory:          /home/--your-account--/django_projects/market
 
-Edit the `WGSI configuration file` and replace it with the following:
+Edit the `WGSI configuration file` under the `Web` tab, and replace it with the following:
 
     import os
     import sys
