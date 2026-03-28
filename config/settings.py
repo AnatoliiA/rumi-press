@@ -30,6 +30,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = [ '*' ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.pythonanywhere.com",
+    "https://*.lhr.life",
+]
+
 # Application definition
 
 INSTALLED_APPS = [
