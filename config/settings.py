@@ -18,7 +18,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
-APP_NAME = "Chuck's Marketplace"   # Change
+APP_NAME = "Market place"   # Change
 
 DJ4E_CODE = '42'
 
@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'social_django',
     'taggit',
     'home.apps.HomeConfig',
+    'mkt.apps.MktConfig',
 ]
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
@@ -142,7 +143,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = "static/"
-
+# 4400528270c776a4ee58a98903fb98c50b7092ff
 # Configure the social login
 # When you want to use social login, please see dj4e-samples/github_settings-dist.py
 try:
@@ -162,6 +163,10 @@ AUTHENTICATION_BACKENDS = (
 
     'django.contrib.auth.backends.ModelBackend',
 )
+
+
+
+DJ4E_CODE = '8b67919d7f3ae093cc16019859483e54'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
