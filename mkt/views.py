@@ -8,11 +8,26 @@ from django.http import HttpResponse
 from mkt.owner import OwnerListView, OwnerDetailView, OwnerDeleteView
 from mkt.forms import CreateForm, CommentForm
 from django.db.utils import IntegrityError
+from django.db.models import Q
+
+
 
 class AdListView(OwnerListView):
     model = Ad
-    # By convention:
-    # template_name = "mkt/Ad_list.html"
+    template_name = "mkt/ad_list.html"
+
+    def get_queryset(self):
+        qs = super().get_queryset()
+
+        search = self.request.GET.get("search", False)
+
+        if search:
+            qs = qs.filter(
+                Q(title__icontains=search) |
+                Q(text__icontains=search)
+            )
+
+        return qs
 
 
 class AdDetailView(OwnerDetailView):
@@ -97,6 +112,9 @@ class AdCreateView(LoginRequiredMixin, View):
         pic = form.save(commit=False)
         pic.owner = self.request.user
         pic.save()
+
+        form.save_m2m()
+
         return redirect(self.success_url)
 
 # class AdCreateView(OwnerCreateView):
@@ -124,6 +142,8 @@ class AdUpdateView(LoginRequiredMixin, View):
 
         pic = form.save(commit=False)
         pic.save()
+
+        form.save_m2m()
 
         return redirect(self.success_url)
 # class AdUpdateView(OwnerUpdateView):

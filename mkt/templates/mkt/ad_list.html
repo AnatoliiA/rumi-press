@@ -3,6 +3,16 @@
 {% block content %}
 
 <h1>ads</h1>
+<form>
+    <input type="text" name="search"
+           placeholder="Search"
+           value="{{ request.GET.search }}">
+    <button type="submit">Search</button>
+
+    {% if request.GET.search %}
+        <a href="{% url 'mkt:all' %}">Clear</a>
+    {% endif %}
+</form>
 
 {% if ad_list %}
     <ul>
