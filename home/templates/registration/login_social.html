@@ -18,38 +18,42 @@
 {% load crispy_forms_tags %}
 
 <form method="post" action="{% url 'login' %}">
-{% csrf_token %}
-{{ form|crispy }}
-<input type="submit" class="btn btn-primary" value="Login Locally" />
-<input type="hidden" name="next" value="{{ next }}" />
-<input type="checkbox" id="show_password">
-<label for="show_password">Show Password</label>
-<input type="hidden" name="next" value="{{ next }}" />
+  {% csrf_token %}
+
+  {{ form|crispy }}
+
+  <input type="submit" class="btn btn-primary" value="Login Locally" />
+
+  <input type="hidden" name="next" value="{{ next }}" />
+
+  <input type="checkbox" id="show_password">
+  <label for="show_password">Show Password</label>
 </form>
 
 {% if settings.SOCIAL_AUTH_GITHUB_KEY %}
-<hr/>
-<a class="btn btn-info" role="button" href="{% url 'social:begin' 'github' %}?next={{ next }}">
+  <hr/>
+
+  <a class="btn btn-info"
+     role="button"
+     href="{% url 'social:begin' 'github' %}?next={{ next }}">
+
     <i class="fa fa-github" aria-hidden="true"></i>
-    Login with GitHub</a>
+    Login with GitHub
+
+  </a>
 {% endif %}
 
-<!-- ROOT_URLCONF {{ settings.ROOT_URLCONF }} -->
+<script>
+  const passwordField = document.getElementById('id_password');
+  const showPasswordCheckbox = document.getElementById('show_password');
 
-
-    <script>
-        const passwordField = document.getElementById('id_password');
-        const showPasswordCheckbox = document.getElementById('show_password');
-
-        showPasswordCheckbox.addEventListener('change', function() {
-            if (this.checked) {
-                passwordField.type = 'text';
-            } else {
-                passwordField.type = 'password';
-            }
-        });
-    </script>
-
+  showPasswordCheckbox.addEventListener('change', function() {
+    if (this.checked) {
+      passwordField.type = 'text';
+    } else {
+      passwordField.type = 'password';
+    }
+  });
+</script>
 
 {% endblock %}
-

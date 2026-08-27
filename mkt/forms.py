@@ -20,6 +20,7 @@ class CreateForm(forms.ModelForm):
         model = Ad
         fields = ['title', 'text', 'picture', 'price'] # Picture is manual
 
+
     # Validate the size of the picture
     def clean(self):
         cleaned_data = super().clean()
@@ -44,6 +45,14 @@ class CreateForm(forms.ModelForm):
             instance.save()
 
         return instance
+
+class CommentForm(forms.Form):
+    comment = forms.CharField(
+        required=True,
+        max_length=500,
+        min_length=3,
+        strip=True
+    )
 
 # https://docs.djangoproject.com/en/5.2/topics/http/file-uploads/
 # https://stackoverflow.com/questions/2472422/django-file-upload-size-limit
