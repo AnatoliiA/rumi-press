@@ -1,0 +1,408 @@
+INFO 2026-09-05 11:27:16,912 autoreload 4748 24272 Watching for file changes with StatReloader
+WARNING 2026-09-05 11:27:20,975 log 4748 26408 Not Found: /index/js/scripts.js
+WARNING 2026-09-05 11:27:21,058 log 4748 20992 Not Found: /index/assets/demo/chart-area-demo.js
+WARNING 2026-09-05 11:27:21,087 log 4748 2420 Not Found: /index/assets/demo/chart-bar-demo.js
+WARNING 2026-09-05 11:27:21,132 log 4748 10776 Not Found: /index/assets/demo/datatables-demo.js
+DEBUG 2026-09-05 11:27:43,392 views 4748 2420 Fetching book list for user: kambio
+INFO 2026-09-05 11:27:43,394 views 4748 2420 User kambio accessed the book list.
+INFO 2026-09-05 11:29:44,924 autoreload 4748 24272 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-05 11:29:50,233 django.utils.autoreload 2200 1236 Watching for file changes with StatReloader
+INFO 2026-09-05 11:29:53,475 django.utils.autoreload 2200 1236 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-05 11:29:55,926 django.utils.autoreload 24572 Watching for file changes with StatReloader
+INFO 2026-09-05 11:30:03,791 django.utils.autoreload 24572 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-05 11:58:28,660 django.utils.autoreload 10980 24272 Watching for file changes with StatReloader
+INFO 2026-09-05 11:58:37,561 django.server 10980 14844 "GET /books/dashboard/?period=90 HTTP/1.1" 200 16076
+WARNING 2026-09-05 11:58:37,772 django.server 10980 14844 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+INFO 2026-09-05 11:58:43,167 django.server 10980 16264 "GET /books/dashboard/?period=30 HTTP/1.1" 200 15176
+WARNING 2026-09-05 11:58:43,359 django.server 10980 16264 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+DEBUG 2026-09-05 11:59:00,043 books.views 10980 13136 Fetching book list for user: kambio
+INFO 2026-09-05 11:59:00,044 books.views 10980 13136 User kambio accessed the book list.
+INFO 2026-09-05 11:59:00,058 django.server 10980 13136 "GET /books/ HTTP/1.1" 200 15283
+WARNING 2026-09-05 11:59:00,205 django.server 10980 13136 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+INFO 2026-09-05 11:59:04,113 django.server 10980 14600 "GET /books/dashboard/ HTTP/1.1" 200 14830
+
+INFO 2026-09-05 12:05:40,532 django.server 10980 22900 "GET / HTTP/1.1" 302 0
+INFO 2026-09-05 12:05:40,562 django.server 10980 22900 "GET /index/ HTTP/1.1" 200 10826
+WARNING 2026-09-05 12:05:40,995 django.request 10980 22900 Not Found: /index/js/scripts.js
+WARNING 2026-09-05 12:05:40,997 django.server 10980 22900 "GET /index/js/scripts.js HTTP/1.1" 404 11218
+WARNING 2026-09-05 12:05:41,026 django.request 10980 22900 Not Found: /index/assets/demo/chart-area-demo.js
+WARNING 2026-09-05 12:05:41,030 django.server 10980 22900 "GET /index/assets/demo/chart-area-demo.js HTTP/1.1" 404 11269
+WARNING 2026-09-05 12:05:41,056 django.request 10980 22608 Not Found: /index/assets/demo/chart-bar-demo.js
+WARNING 2026-09-05 12:05:41,059 django.server 10980 22608 "GET /index/assets/demo/chart-bar-demo.js HTTP/1.1" 404 11266
+WARNING 2026-09-05 12:05:41,116 django.request 10980 23176 Not Found: /index/assets/demo/datatables-demo.js
+WARNING 2026-09-05 12:05:41,119 django.server 10980 23176 "GET /index/assets/demo/datatables-demo.js HTTP/1.1" 404 11269
+DEBUG 2026-09-05 12:06:01,681 books.views 10980 23176 Fetching book list for user: kambio
+INFO 2026-09-05 12:06:01,681 books.views 10980 23176 User kambio accessed the book list.
+INFO 2026-09-05 12:06:01,688 django.server 10980 23176 "GET /books/ HTTP/1.1" 200 15283
+WARNING 2026-09-05 12:06:01,802 django.server 10980 23176 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+DEBUG 2026-09-05 12:06:16,068 books.views 10980 22608 Fetching book list for user: kambio
+INFO 2026-09-05 12:06:16,069 books.views 10980 22608 User kambio accessed the book list.
+INFO 2026-09-05 12:06:16,073 django.server 10980 22608 "GET /books/ HTTP/1.1" 200 15283
+WARNING 2026-09-05 12:06:16,187 django.server 10980 22608 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+INFO 2026-09-05 12:06:25,248 django.server 10980 22900 "GET /books/dashboard/ HTTP/1.1" 200 14830
+WARNING 2026-09-05 12:06:25,499 django.server 10980 22900 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+INFO 2026-09-05 12:41:20,892 django.utils.autoreload 13556 29640 Watching for file changes with StatReloader
+INFO 2026-09-05 12:41:29,309 django.server 13556 29976 "GET / HTTP/1.1" 302 0
+INFO 2026-09-05 12:41:29,735 django.server 13556 29976 "GET /index/ HTTP/1.1" 200 10834
+WARNING 2026-09-05 12:41:34,760 django.request 13556 29976 Not Found: /index/javascript/scripts.js
+WARNING 2026-09-05 12:41:34,781 django.server 13556 29976 "GET /index/javascript/scripts.js HTTP/1.1" 404 11242
+WARNING 2026-09-05 12:41:35,706 django.request 13556 29976 Not Found: /index/assets/demo/chart-area-demo.js
+WARNING 2026-09-05 12:41:35,711 django.server 13556 29976 "GET /index/assets/demo/chart-area-demo.js HTTP/1.1" 404 11269
+WARNING 2026-09-05 12:41:36,015 django.request 13556 2776 Not Found: /index/assets/demo/chart-bar-demo.js
+WARNING 2026-09-05 12:41:36,031 django.server 13556 2776 "GET /index/assets/demo/chart-bar-demo.js HTTP/1.1" 404 11266
+WARNING 2026-09-05 12:41:37,256 django.request 13556 2776 Not Found: /index/assets/demo/datatables-demo.js
+WARNING 2026-09-05 12:41:37,517 django.server 13556 2776 "GET /index/assets/demo/datatables-demo.js HTTP/1.1" 404 11269
+DEBUG 2026-09-05 12:41:47,744 books.views 13556 2776 Fetching book list for user: kambio
+INFO 2026-09-05 12:41:47,744 books.views 13556 2776 User kambio accessed the book list.
+INFO 2026-09-05 12:41:47,769 django.server 13556 2776 "GET /books/ HTTP/1.1" 200 15283
+WARNING 2026-09-05 12:41:47,967 django.server 13556 2776 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+INFO 2026-09-05 12:42:58,872 django.utils.autoreload 13556 29640 C:\Users\kamar\Documents\django\rumi-press\books\views.py changed, reloading.
+INFO 2026-09-05 12:43:17,156 django.utils.autoreload 27688 28344 Watching for file changes with StatReloader
+INFO 2026-09-05 12:43:23,723 django.utils.autoreload 27688 28344 C:\Users\kamar\Documents\django\rumi-press\books\views.py changed, reloading.
+INFO 2026-09-05 12:43:40,327 django.utils.autoreload 29584 30180 Watching for file changes with StatReloader
+INFO 2026-09-05 12:43:52,114 django.utils.autoreload 29584 30180 C:\Users\kamar\Documents\django\rumi-press\books\views.py changed, reloading.
+INFO 2026-09-05 12:44:06,196 django.utils.autoreload 30324 21640 Watching for file changes with StatReloader
+INFO 2026-09-05 12:44:17,707 django.utils.autoreload 30324 21640 C:\Users\kamar\Documents\django\rumi-press\books\views.py changed, reloading.
+INFO 2026-09-05 12:45:21,422 django.utils.autoreload 18760 26000 Watching for file changes with StatReloader
+INFO 2026-09-05 12:45:52,672 django.utils.autoreload 18760 26000 C:\Users\kamar\Documents\django\rumi-press\books\models.py changed, reloading.
+INFO 2026-09-05 12:46:19,284 django.utils.autoreload 26968 21084 Watching for file changes with StatReloader
+INFO 2026-09-05 12:46:29,512 django.utils.autoreload 26968 21084 C:\Users\kamar\Documents\django\rumi-press\books\models.py changed, reloading.
+INFO 2026-09-05 12:46:55,470 django.utils.autoreload 28916 25732 Watching for file changes with StatReloader
+INFO 2026-09-05 12:47:02,678 django.utils.autoreload 28916 25732 C:\Users\kamar\Documents\django\rumi-press\books\models.py changed, reloading.
+INFO 2026-09-05 12:47:13,118 django.utils.autoreload 16432 24876 Watching for file changes with StatReloader
+INFO 2026-09-05 12:47:18,309 django.utils.autoreload 16432 24876 C:\Users\kamar\Documents\django\rumi-press\books\views.py changed, reloading.
+INFO 2026-09-05 12:47:27,507 django.utils.autoreload 15964 27300 Watching for file changes with StatReloader
+INFO 2026-09-05 12:47:48,099 django.utils.autoreload 15964 27300 C:\Users\kamar\Documents\django\rumi-press\books\views.py changed, reloading.
+INFO 2026-09-05 12:47:51,506 django.utils.autoreload 22880 27060 Watching for file changes with StatReloader
+DEBUG 2026-09-05 12:48:00,142 books.views 22880 14300 Fetching book list for user: kambio
+INFO 2026-09-05 12:48:00,142 books.views 22880 14300 User kambio accessed the book list.
+INFO 2026-09-05 12:48:00,289 django.server 22880 14300 "GET /books/ HTTP/1.1" 200 15283
+WARNING 2026-09-05 12:48:00,409 django.server 22880 14300 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+INFO 2026-09-05 12:48:01,902 django.server 22880 29040 "GET /books/dashboard/ HTTP/1.1" 200 14830
+WARNING 2026-09-05 12:48:02,030 django.server 22880 29040 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+DEBUG 2026-09-05 12:48:04,086 books.views 22880 6504 Fetching book list for user: kambio
+INFO 2026-09-05 12:48:04,087 books.views 22880 6504 User kambio accessed the book list.
+INFO 2026-09-05 12:48:04,091 django.server 22880 6504 "GET /books/ HTTP/1.1" 200 15283
+WARNING 2026-09-05 12:48:04,186 django.server 22880 6504 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+INFO 2026-09-05 12:48:06,013 django.server 22880 16800 "GET /books/dashboard/ HTTP/1.1" 200 14830
+WARNING 2026-09-05 12:48:06,116 django.server 22880 16800 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+DEBUG 2026-09-05 12:48:09,143 books.views 22880 13668 Fetching book list for user: kambio
+INFO 2026-09-05 12:48:09,144 books.views 22880 13668 User kambio accessed the book list.
+INFO 2026-09-05 12:48:09,158 django.server 22880 13668 "GET /books/ HTTP/1.1" 200 15283
+WARNING 2026-09-05 12:48:09,304 django.server 22880 13668 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+DEBUG 2026-09-05 12:48:10,815 books.views 22880 22948 User kambio is attempting to add a new book.
+INFO 2026-09-05 12:48:10,816 books.views 22880 22948 User kambio accessed the add book page.
+DEBUG 2026-09-05 12:48:10,816 books.views 22880 22948 Request method: GET
+DEBUG 2026-09-05 12:48:10,817 books.views 22880 22948 form <div>
+    <label for="id_title">Title:</label>
+
+
+
+<input type="text" name="title" maxlength="255" required id="id_title">
+    
+</div>
+
+  <div>
+    <label for="id_subtitle">Subtitle:</label>
+
+
+
+<input type="text" name="subtitle" maxlength="255" id="id_subtitle">
+    
+</div>
+
+  <div>
+    <label for="id_authors">Authors:</label>
+
+
+
+<textarea name="authors" cols="40" rows="10" required id="id_authors">
+</textarea>
+    
+</div>
+
+  <div>
+    <label for="id_publisher">Publisher:</label>
+
+
+
+<input type="text" name="publisher" maxlength="255" required id="id_publisher">
+    
+</div>
+
+  <div>
+    <label for="id_published_date">Published date:</label>
+
+
+
+<input type="date" name="published_date" id="id_published_date">
+    
+</div>
+
+  <div>
+    <label for="id_category">Category:</label>
+
+
+
+<select name="category" required id="id_category">
+  <option value="" selected>---------</option>
+
+  <option value="1">Business Analytics</option>
+
+  <option value="2">Data Science</option>
+
+  <option value="3">Data Ethics</option>
+
+  <option value="4">Deep Learning</option>
+
+  <option value="5">Maths</option>
+
+  <option value="6">NLP</option>
+
+  <option value="7">Python</option>
+
+  <option value="8">R Studio</option>
+
+  <option value="9">SQL</option>
+
+  <option value="10">Statistics</option>
+
+  <option value="11">Visualization</option>
+
+</select>
+    
+</div>
+
+  <div>
+    <label for="id_distribution_expense">Distribution expense:</label>
+
+
+
+<input type="number" name="distribution_expense" step="0.01" required id="id_distribution_expense">
+    
+</div>
+
+  <div>
+    <label for="id_quantity">Quantity:</label>
+
+
+
+<input type="number" name="quantity" value="1" min="0" required id="id_quantity">
+    
+      
+    
+</div>
+INFO 2026-09-05 12:48:11,401 django.server 22880 22948 "GET /books/add/ HTTP/1.1" 200 7578
+WARNING 2026-09-05 12:48:11,507 django.server 22880 22948 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+DEBUG 2026-09-05 12:48:47,126 books.views 22880 9236 User kambio is attempting to add a new book.
+INFO 2026-09-05 12:48:47,127 books.views 22880 9236 User kambio accessed the add book page.
+DEBUG 2026-09-05 12:48:47,127 books.views 22880 9236 Request method: POST
+DEBUG 2026-09-05 12:48:47,160 books.views 22880 9236 Book created: tedy
+INFO 2026-09-05 12:48:47,183 books.views 22880 9236 Book added by user: kambio
+INFO 2026-09-05 12:48:47,187 django.server 22880 9236 "POST /books/add/ HTTP/1.1" 302 0
+DEBUG 2026-09-05 12:48:47,217 books.views 22880 9236 Fetching book list for user: kambio
+INFO 2026-09-05 12:48:47,218 books.views 22880 9236 User kambio accessed the book list.
+INFO 2026-09-05 12:48:47,238 django.server 22880 9236 "GET /books/ HTTP/1.1" 200 17786
+WARNING 2026-09-05 12:48:47,393 django.server 22880 9236 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+INFO 2026-09-06 13:16:28,157 django.utils.autoreload 15460 20388 Watching for file changes with StatReloader
+INFO 2026-09-06 13:16:33,651 django.server 15460 28828 "GET / HTTP/1.1" 302 0
+INFO 2026-09-06 13:16:33,996 django.server 15460 28828 "GET /index/ HTTP/1.1" 200 10834
+INFO 2026-09-06 13:16:34,638 django.server 15460 28828 "GET /static/home.css HTTP/1.1" 304 0
+INFO 2026-09-06 13:16:34,843 django.server 15460 28828 "GET /static/addmoney.css HTTP/1.1" 304 0
+INFO 2026-09-06 13:16:35,028 django.server 15460 28828 "GET /static/img/unnamed.png HTTP/1.1" 304 0
+WARNING 2026-09-06 13:16:35,520 django.request 15460 28828 Not Found: /index/javascript/scripts.js
+WARNING 2026-09-06 13:16:35,743 django.request 15460 21928 Not Found: /index/assets/demo/chart-area-demo.js
+WARNING 2026-09-06 13:16:35,744 django.server 15460 28828 "GET /index/javascript/scripts.js HTTP/1.1" 404 11242
+WARNING 2026-09-06 13:16:35,755 django.server 15460 21928 "GET /index/assets/demo/chart-area-demo.js HTTP/1.1" 404 11269
+WARNING 2026-09-06 13:16:35,838 django.request 15460 21928 Not Found: /index/assets/demo/chart-bar-demo.js
+WARNING 2026-09-06 13:16:35,903 django.server 15460 21928 "GET /index/assets/demo/chart-bar-demo.js HTTP/1.1" 404 11266
+WARNING 2026-09-06 13:16:36,122 django.request 15460 21928 Not Found: /index/assets/demo/datatables-demo.js
+WARNING 2026-09-06 13:16:36,146 django.server 15460 21928 "GET /index/assets/demo/datatables-demo.js HTTP/1.1" 404 11269
+DEBUG 2026-09-06 13:16:43,255 books.views 15460 21928 Fetching book list for user: kambio
+INFO 2026-09-06 13:16:43,257 books.views 15460 21928 User kambio accessed the book list.
+INFO 2026-09-06 13:16:43,536 django.server 15460 21928 "GET /books/ HTTP/1.1" 200 17372
+WARNING 2026-09-06 13:16:43,690 django.server 15460 21928 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+INFO 2026-09-06 13:17:27,019 django.server 15460 28828 "GET /books/8/delete/ HTTP/1.1" 200 5420
+WARNING 2026-09-06 13:17:27,631 django.server 15460 28828 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+INFO 2026-09-06 13:17:31,079 django.server 15460 31004 "POST /books/8/delete/ HTTP/1.1" 302 0
+DEBUG 2026-09-06 13:17:31,168 books.views 15460 31004 Fetching book list for user: kambio
+INFO 2026-09-06 13:17:31,169 books.views 15460 31004 User kambio accessed the book list.
+INFO 2026-09-06 13:17:31,190 django.server 15460 31004 "GET /books/ HTTP/1.1" 200 15715
+WARNING 2026-09-06 13:17:31,326 django.server 15460 31004 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+DEBUG 2026-09-06 13:17:38,022 books.views 15460 26448 User kambio is attempting to add a new book.
+INFO 2026-09-06 13:17:38,136 books.views 15460 26448 User kambio accessed the add book page.
+DEBUG 2026-09-06 13:17:38,197 books.views 15460 26448 Request method: GET
+DEBUG 2026-09-06 13:17:38,279 books.views 15460 26448 form <div>
+    <label for="id_title">Title:</label>
+
+
+
+<input type="text" name="title" maxlength="255" required id="id_title">
+    
+</div>
+
+  <div>
+    <label for="id_subtitle">Subtitle:</label>
+
+
+
+<input type="text" name="subtitle" maxlength="255" id="id_subtitle">
+    
+</div>
+
+  <div>
+    <label for="id_authors">Authors:</label>
+
+
+
+<textarea name="authors" cols="40" rows="10" required id="id_authors">
+</textarea>
+    
+</div>
+
+  <div>
+    <label for="id_publisher">Publisher:</label>
+
+
+
+<input type="text" name="publisher" maxlength="255" required id="id_publisher">
+    
+</div>
+
+  <div>
+    <label for="id_published_date">Published date:</label>
+
+
+
+<input type="date" name="published_date" id="id_published_date">
+    
+</div>
+
+  <div>
+    <label for="id_category">Category:</label>
+
+
+
+<select name="category" required id="id_category">
+  <option value="" selected>---------</option>
+
+  <option value="1">Business Analytics</option>
+
+  <option value="2">Data Science</option>
+
+  <option value="3">Data Ethics</option>
+
+  <option value="4">Deep Learning</option>
+
+  <option value="5">Maths</option>
+
+  <option value="6">NLP</option>
+
+  <option value="7">Python</option>
+
+  <option value="8">R Studio</option>
+
+  <option value="9">SQL</option>
+
+  <option value="10">Statistics</option>
+
+  <option value="11">Visualization</option>
+
+</select>
+    
+</div>
+
+  <div>
+    <label for="id_distribution_expense">Distribution expense:</label>
+
+
+
+<input type="number" name="distribution_expense" step="0.01" required id="id_distribution_expense">
+    
+</div>
+
+  <div>
+    <label for="id_quantity">Quantity:</label>
+
+
+
+<input type="number" name="quantity" value="1" min="0" required id="id_quantity">
+    
+      
+    
+</div>
+INFO 2026-09-06 13:17:43,204 django.server 15460 26448 "GET /books/add/ HTTP/1.1" 200 7578
+WARNING 2026-09-06 13:17:44,290 django.server 15460 26448 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+DEBUG 2026-09-06 13:18:24,862 books.views 15460 27808 User kambio is attempting to add a new book.
+INFO 2026-09-06 13:18:24,865 books.views 15460 27808 User kambio accessed the add book page.
+DEBUG 2026-09-06 13:18:24,866 books.views 15460 27808 Request method: POST
+DEBUG 2026-09-06 13:18:24,916 books.views 15460 27808 Book created: lutry by lutry published by lurry on 2026-09-01 in category Statistics with distribution expense of 1 and quantity of 1
+DEBUG 2026-09-06 13:18:24,945 books.views 15460 27808 BookHistory entry created: Lutry - 1 - ADD - kambio - 2026-09-06 11:18:24.918469+00:00
+INFO 2026-09-06 13:18:24,947 books.views 15460 27808 Book added by user: kambio
+INFO 2026-09-06 13:18:24,951 django.server 15460 27808 "POST /books/add/ HTTP/1.1" 302 0
+DEBUG 2026-09-06 13:18:24,979 books.views 15460 27808 Fetching book list for user: kambio
+INFO 2026-09-06 13:18:24,980 books.views 15460 27808 User kambio accessed the book list.
+INFO 2026-09-06 13:18:25,016 django.server 15460 27808 "GET /books/ HTTP/1.1" 200 17777
+WARNING 2026-09-06 13:18:25,198 django.server 15460 27808 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+INFO 2026-09-06 14:09:20,122 django.utils.autoreload 15460 20388 C:\Users\kamar\Documents\django\rumi-press\books\urls.py changed, reloading.
+INFO 2026-09-06 14:09:22,997 django.utils.autoreload 14504 29100 Watching for file changes with StatReloader
+INFO 2026-09-06 14:36:49,482 django.utils.autoreload 14504 29100 C:\Users\kamar\Documents\django\rumi-press\mkt\urls.py changed, reloading.
+INFO 2026-09-06 14:36:51,493 django.utils.autoreload 26928 29292 Watching for file changes with StatReloader
+INFO 2026-09-06 14:37:18,894 django.utils.autoreload 26928 29292 C:\Users\kamar\Documents\django\rumi-press\mkt\urls.py changed, reloading.
+INFO 2026-09-06 14:37:20,387 django.utils.autoreload 30544 25032 Watching for file changes with StatReloader
+INFO 2026-09-06 14:37:22,367 django.utils.autoreload 30544 25032 C:\Users\kamar\Documents\django\rumi-press\mkt\urls.py changed, reloading.
+INFO 2026-09-06 14:37:24,031 django.utils.autoreload 29604 23064 Watching for file changes with StatReloader
+INFO 2026-09-06 14:41:30,635 django.utils.autoreload 29604 23064 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-06 14:41:32,641 django.utils.autoreload 13468 10608 Watching for file changes with StatReloader
+INFO 2026-09-06 14:41:42,322 django.utils.autoreload 13468 10608 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-06 14:41:44,495 django.utils.autoreload 27944 4184 Watching for file changes with StatReloader
+INFO 2026-09-06 14:41:49,249 django.utils.autoreload 27944 4184 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-06 14:41:52,027 django.utils.autoreload 22716 20952 Watching for file changes with StatReloader
+INFO 2026-09-06 14:41:58,659 django.utils.autoreload 22716 20952 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-06 14:42:01,748 django.utils.autoreload 18756 32392 Watching for file changes with StatReloader
+INFO 2026-09-06 14:44:06,792 django.utils.autoreload 18756 32392 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-06 14:44:09,215 django.utils.autoreload 32652 31180 Watching for file changes with StatReloader
+INFO 2026-09-06 14:44:16,591 django.utils.autoreload 32652 31180 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-06 14:44:17,970 django.utils.autoreload 30172 5188 Watching for file changes with StatReloader
+INFO 2026-09-06 14:45:27,716 django.utils.autoreload 30172 5188 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-06 14:45:29,034 django.utils.autoreload 30072 8340 Watching for file changes with StatReloader
+INFO 2026-09-06 14:46:24,336 django.utils.autoreload 30072 8340 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-06 14:46:26,717 django.utils.autoreload 30400 29712 Watching for file changes with StatReloader
+INFO 2026-09-06 14:47:21,000 django.utils.autoreload 30400 29712 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-06 14:47:22,398 django.utils.autoreload 5296 18656 Watching for file changes with StatReloader
+INFO 2026-09-06 14:49:50,972 django.utils.autoreload 5296 18656 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-06 14:59:55,745 django.utils.autoreload 31996 30592 Watching for file changes with StatReloader
+INFO 2026-09-06 14:59:58,931 django.server 31996 26544 "GET /books/ HTTP/1.1" 302 0
+INFO 2026-09-06 14:59:59,249 django.server 31996 26544 "GET /accounts/login/?next=/books/ HTTP/1.1" 200 2266
+INFO 2026-09-06 15:00:20,016 django.server 31996 26544 "POST /accounts/login/ HTTP/1.1" 200 2493
+INFO 2026-09-06 15:00:31,344 django.server 31996 26544 "POST /accounts/login/ HTTP/1.1" 200 2493
+INFO 2026-09-06 15:00:37,417 django.server 31996 26544 "POST /accounts/login/ HTTP/1.1" 200 2493
+INFO 2026-09-06 15:00:59,967 django.server 31996 26544 "POST /accounts/login/ HTTP/1.1" 200 2493
+INFO 2026-09-06 15:01:16,270 django.server 31996 26544 "POST /accounts/login/ HTTP/1.1" 200 2492
+INFO 2026-09-06 15:01:26,433 django.server 31996 26544 "POST /accounts/login/ HTTP/1.1" 200 2492
+INFO 2026-09-06 15:01:38,628 django.server 31996 26544 "POST /accounts/login/ HTTP/1.1" 200 2492
+INFO 2026-09-06 15:02:05,576 django.server 31996 26544 "POST /accounts/login/ HTTP/1.1" 200 2492
+INFO 2026-09-06 15:02:12,914 django.server 31996 26544 "POST /accounts/login/ HTTP/1.1" 200 2492
+INFO 2026-09-06 15:02:22,624 django.server 31996 26544 "POST /accounts/login/ HTTP/1.1" 200 2492
+INFO 2026-09-06 15:02:36,672 django.server 31996 26544 "POST /accounts/login/ HTTP/1.1" 200 2492
+INFO 2026-09-06 15:02:43,970 django.server 31996 26544 "POST /accounts/login/ HTTP/1.1" 200 2492
+INFO 2026-09-06 15:03:27,833 django.server 31996 26544 "POST /accounts/login/ HTTP/1.1" 200 2516
+INFO 2026-09-06 15:04:34,925 django.server 31996 26544 "POST /accounts/login/ HTTP/1.1" 200 2516
+INFO 2026-09-06 15:04:46,468 django.server 31996 26544 "POST /accounts/login/ HTTP/1.1" 200 2495
+INFO 2026-09-06 15:09:08,553 django.server 31996 26544 "POST /accounts/login/ HTTP/1.1" 302 0
+DEBUG 2026-09-06 15:09:08,681 books.views 31996 26544 Fetching book list for user: kambio
+INFO 2026-09-06 15:09:08,682 books.views 31996 26544 User kambio accessed the book list.
+INFO 2026-09-06 15:09:08,757 django.server 31996 26544 "GET /books/ HTTP/1.1" 200 7166
+WARNING 2026-09-06 15:09:08,829 django.server 31996 26544 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+INFO 2026-09-06 15:25:33,649 django.server 31996 31888 "GET /admin HTTP/1.1" 301 0
+INFO 2026-09-06 15:25:35,533 django.server 31996 27028 "GET /admin/ HTTP/1.1" 200 13379
+INFO 2026-09-06 15:25:36,441 django.server 31996 29416 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2026-09-06 15:25:36,629 django.server 31996 28300 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-09-06 15:25:36,671 django.server 31996 27028 "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2026-09-06 15:25:36,792 django.server 31996 564 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2026-09-06 15:25:36,936 django.server 31996 14148 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-09-06 15:25:37,053 django.server 31996 32192 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2026-09-06 15:25:37,230 django.server 31996 14148 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2026-09-06 15:25:37,231 django.server 31996 32192 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2026-09-06 15:25:37,354 django.server 31996 27028 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2026-09-06 15:25:37,534 django.server 31996 564 "GET /admin/ HTTP/1.1" 200 13379

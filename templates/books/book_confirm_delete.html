@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<div class="container mt-5">
+
+    <div class="card shadow">
+
+        <div class="card-header">
+            <h3>Remove Books</h3>
+        </div>
+
+        <div class="card-body">
+
+            <h5>
+                {{ book.title }}
+            </h5>
+
+            <p>
+                Available quantity:
+                <strong>{{ book.quantity }}</strong>
+            </p>
+
+            <form method="post">
+
+                {% csrf_token %}
+
+                <div class="form-group">
+
+                    <label>
+                        Quantity to remove
+                    </label>
+
+                    <input
+                        type="number"
+                        name="quantity"
+                        class="form-control"
+                        min="1"
+                        max="{{ book.quantity }}"
+                        value="1"
+                        required
+                    >
+
+                </div>
+
+                <br>
+
+                <button
+                    type="submit"
+                    class="btn btn-danger"
+                >
+                    Remove
+                </button>
+
+                <a
+                    href="{% url 'books:book_list' %}"
+                    class="btn btn-secondary"
+                >
+                    Cancel
+                </a>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock body %}

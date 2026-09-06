@@ -24,5 +24,5 @@ urlpatterns = [
     path('ad/<int:pk>/toggle', views.ToggleFavoriteView.as_view(), name='ad_toggle'),
 
 ]
-
-# We use reverse_lazy in urls.py to delay looking up the view until all the paths are defined
+# pip install psycopg[binary] dj-database-url python-dotenv# We use reverse_lazy in urls.py to delay looking up the view until all the paths are defined
+# postgresql://postgres:rv0205%C3%A7123w@db.omyjggzblmanaewzzohh.supabase.co:5432/postgres

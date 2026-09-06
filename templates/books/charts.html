@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<div class="container mt-5">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <h1>Distribution Expenses</h1>
+
+        <a href="{% url 'books:book_list' %}"
+           class="btn btn-secondary">
+            Back to Books
+        </a>
+
+    </div>
+
+    <div class="card shadow">
+
+        <div class="card-header">
+            Expenses by Category
+        </div>
+
+        <div class="card-body">
+
+            <canvas id="expenseChart"></canvas>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+{{ labels|json_script:"chart-labels" }}
+{{ values|json_script:"chart-values" }}
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+
+    const labels = JSON.parse(
+        document.getElementById("chart-labels").textContent
+    );
+
+    const values = JSON.parse(
+        document.getElementById("chart-values").textContent
+    );
+
+    const ctx = document.getElementById("expenseChart");
+
+    new Chart(ctx, {
+        type: "bar",
+
+        data: {
+            labels: labels,
+
+            datasets: [{
+                label: "Distribution Expense",
+                data: values
+            }]
+        },
+
+        options: {
+            responsive: true,
+
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+
+</script>
+
+{% endblock body %}

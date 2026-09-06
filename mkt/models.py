@@ -1,7 +1,19 @@
 from django.db import models
 from django.core.validators import MinLengthValidator
-from django.conf import settings
 from taggit.managers import TaggableManager
+from django.db import models
+from django.utils.timezone import now
+from django.contrib.auth.models import User
+from django.conf import settings
+from django.db.models.signals import post_save
+from django.dispatch import receiver
+from django.db.models import Sum
+
+
+
+
+
+
 
 class Ad(models.Model):
     title = models.CharField(
@@ -97,3 +109,4 @@ class Fav(models.Model) :
 
     def __str__(self) :
         return '%s likes %s'%(self.user.username, self.ad.title[:10])
+

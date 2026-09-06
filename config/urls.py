@@ -30,6 +30,7 @@ urlpatterns = [
     re_path(r'^oauth/', include('social_django.urls', namespace='social')),
     path('home/', include('home.urls')),
     path('mkt/', include('mkt.urls')),
+    path('books/', include('books.urls')),
 ]
 
 # Serve the static HTML

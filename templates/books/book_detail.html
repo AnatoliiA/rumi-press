@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container mt-5">
+
+    <div class="card shadow">
+
+        <div class="card-header">
+            <h3>{{ book.title }}</h3>
+        </div>
+
+        <div class="card-body">
+
+            <p>
+                <strong>Subtitle:</strong>
+                {{ book.subtitle|default:"-" }}
+            </p>
+
+            <p>
+                <strong>Authors:</strong>
+                {{ book.authors }}
+            </p>
+
+            <p>
+                <strong>Publisher:</strong>
+                {{ book.publisher }}
+            </p>
+
+            <p>
+                <strong>Published date:</strong>
+                {{ book.published_date|date:"Y-m-d" }}
+            </p>
+
+            <p>
+                <strong>Category:</strong>
+                {% if book.category %}
+                    {{ book.category.name }}
+                {% else %}
+                    -
+                {% endif %}
+            </p>
+
+            <p>
+                <strong>Distribution expense:</strong>
+                {{ book.distribution_expense }}
+            </p>
+
+            <a href="{% url 'books:book_edit' book.pk %}"
+               class="btn btn-warning">
+                Edit
+            </a>
+
+            <a href="{% url 'books:book_list' %}"
+               class="btn btn-secondary">
+                Back
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock content %}

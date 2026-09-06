@@ -1,0 +1,584 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<div class="container-fluid mt-4">
+
+    <!-- HEADER -->
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <h1>
+            Dashboard
+        </h1>
+
+        <div>
+
+            <a
+                href="{% url 'books:book_list' %}"
+                class="btn btn-primary"
+            >
+                Books
+            </a>
+
+            <a
+                href="{% url 'books:book_history' %}"
+                class="btn btn-secondary"
+            >
+                History
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- PERIOD -->
+
+    <div class="card shadow mb-4">
+
+        <div class="card-body">
+
+            <form
+                method="get"
+                class="form-inline"
+            >
+
+                <label
+                    for="period"
+                    class="mr-3"
+                >
+
+                    <strong>
+                        Report period:
+                    </strong>
+
+                </label>
+
+                <select
+                    id="period"
+                    name="period"
+                    class="form-control"
+                    onchange="this.form.submit()"
+                >
+
+                    <option
+                        value="7"
+                        {% if selected_period == 7 %}
+                            selected
+                        {% endif %}
+                    >
+                        Last 7 days
+                    </option>
+
+
+                    <option
+                        value="30"
+                        {% if selected_period == 30 %}
+                            selected
+                        {% endif %}
+                    >
+                        Last 30 days
+                    </option>
+
+
+                    <option
+                        value="90"
+                        {% if selected_period == 90 %}
+                            selected
+                        {% endif %}
+                    >
+                        Last 90 days
+                    </option>
+
+
+                    <option
+                        value="365"
+                        {% if selected_period == 365 %}
+                            selected
+                        {% endif %}
+                    >
+                        Last year
+                    </option>
+
+                </select>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <!-- FIRST ROW -->
+
+    <div class="row mb-4">
+
+
+        <!-- MOVEMENT CHART -->
+
+        <div class="col-lg-7 mb-4">
+
+            <div class="card shadow h-100">
+
+                <div class="card-header">
+
+                    <i class="fas fa-chart-line mr-2"></i>
+
+                    Incoming / Outgoing
+
+                </div>
+
+                <div class="card-body">
+
+                    <div style="height: 320px;">
+
+                        <canvas
+                            id="movementChart"
+                        ></canvas>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- STOCK REPORT -->
+
+        <div class="col-lg-5 mb-4">
+
+            <div class="card shadow h-100">
+
+                <div class="card-header">
+
+                    <i class="fas fa-chart-bar mr-2"></i>
+
+                    Stock Report
+
+                </div>
+
+
+                <div class="card-body">
+
+                    <h4 class="mb-4">
+
+                        Period:
+                        {{ selected_period }}
+                        days
+
+                    </h4>
+
+
+                    <p class="mb-4">
+
+                        Incoming:
+
+                        <strong>
+                            {{ incoming }}
+                        </strong>
+
+                    </p>
+
+
+                    <p class="mb-4">
+
+                        Outgoing:
+
+                        <strong>
+                            {{ outgoing }}
+                        </strong>
+
+                    </p>
+
+
+                    <p class="mb-4">
+
+                        Books in stock:
+
+                        <strong>
+                            {{ total_books }}
+                        </strong>
+
+                    </p>
+
+
+                    <p class="mb-4">
+
+                        Book titles:
+
+                        <strong>
+                            {{ total_titles }}
+                        </strong>
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- SECOND ROW -->
+
+    <div class="row">
+
+
+        <!-- PIE CHART -->
+
+        <div class="col-lg-7 mb-4">
+
+            <div class="card shadow">
+
+                <div class="card-header">
+
+                    <i class="fas fa-chart-pie mr-2"></i>
+
+                    Distribution Expenses by Category
+
+                </div>
+
+
+                <div class="card-body">
+
+                    <div
+                        style="
+                            height: 350px;
+                            max-width: 650px;
+                            margin: auto;
+                        "
+                    >
+
+                        <canvas
+                            id="expenseChart"
+                        ></canvas>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- SUMMARY -->
+
+        <div class="col-lg-5 mb-4">
+
+            <div class="card shadow h-100">
+
+                <div class="card-header">
+
+                    <i class="fas fa-book mr-2"></i>
+
+                    Inventory Summary
+
+                </div>
+
+
+                <div class="card-body">
+
+                    <h5>
+                        Total copies
+                    </h5>
+
+                    <h2 class="mb-4">
+                        {{ total_books }}
+                    </h2>
+
+
+                    <h5>
+                        Different titles
+                    </h5>
+
+                    <h2>
+                        {{ total_titles }}
+                    </h2>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- DJANGO DATA -->
+
+{{ period_labels|json_script:"period-labels" }}
+
+{{ incoming_values|json_script:"incoming-values" }}
+
+{{ outgoing_values|json_script:"outgoing-values" }}
+
+{{ expense_labels|json_script:"expense-labels" }}
+
+{{ expense_values|json_script:"expense-values" }}
+
+
+<!-- CHART.JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+<script>
+
+    // ==========================================
+    // GET DATA
+    // ==========================================
+
+    const periodLabels =
+        JSON.parse(
+            document
+                .getElementById(
+                    "period-labels"
+                )
+                .textContent
+        );
+
+
+    const incomingValues =
+        JSON.parse(
+            document
+                .getElementById(
+                    "incoming-values"
+                )
+                .textContent
+        );
+
+
+    const outgoingValues =
+        JSON.parse(
+            document
+                .getElementById(
+                    "outgoing-values"
+                )
+                .textContent
+        );
+
+
+    const expenseLabels =
+        JSON.parse(
+            document
+                .getElementById(
+                    "expense-labels"
+                )
+                .textContent
+        );
+
+
+    const expenseValues =
+        JSON.parse(
+            document
+                .getElementById(
+                    "expense-values"
+                )
+                .textContent
+        );
+
+
+    // ==========================================
+    // MOVEMENT CHART
+    // ==========================================
+
+    new Chart(
+        document.getElementById(
+            "movementChart"
+        ),
+        {
+
+            type: "line",
+
+            data: {
+
+                labels: periodLabels,
+
+                datasets: [
+
+                    {
+
+                        label:
+                            "Incoming",
+
+                        data:
+                            incomingValues,
+
+                        tension:
+                            0.3,
+
+                        fill:
+                            false
+
+                    },
+
+                    {
+
+                        label:
+                            "Outgoing",
+
+                        data:
+                            outgoingValues,
+
+                        tension:
+                            0.3,
+
+                        fill:
+                            false
+
+                    }
+
+                ]
+
+            },
+
+
+            options: {
+
+                responsive:
+                    true,
+
+                maintainAspectRatio:
+                    false,
+
+                interaction: {
+
+                    mode:
+                        "index",
+
+                    intersect:
+                        false
+
+                },
+
+                plugins: {
+
+                    legend: {
+
+                        position:
+                            "top"
+
+                    }
+
+                },
+
+                scales: {
+
+                    y: {
+
+                        beginAtZero:
+                            true,
+
+                        ticks: {
+
+                            precision:
+                                0
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+    );
+
+
+    // ==========================================
+    // PIE CHART
+    // ==========================================
+
+    new Chart(
+        document.getElementById(
+            "expenseChart"
+        ),
+        {
+
+            type:
+                "pie",
+
+            data: {
+
+                labels:
+                    expenseLabels,
+
+                datasets: [
+
+                    {
+
+                        label:
+                            "Distribution Expense",
+
+                        data:
+                            expenseValues
+
+                    }
+
+                ]
+
+            },
+
+
+            options: {
+
+                responsive:
+                    true,
+
+                maintainAspectRatio:
+                    false,
+
+                plugins: {
+
+                    legend: {
+
+                        position:
+                            "right"
+
+                    },
+
+                    tooltip: {
+
+                        callbacks: {
+
+                            label:
+                                function(context) {
+
+                                    const value =
+                                        Number(
+                                            context.raw
+                                            || 0
+                                        );
+
+                                    return (
+                                        context.label
+                                        + ": "
+                                        + value.toFixed(2)
+                                    );
+
+                                }
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+    );
+
+</script>
+
+
+{% endblock body %}

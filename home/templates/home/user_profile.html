@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<div class="container mt-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-lg-7">
+
+            <div class="card shadow">
+
+                <div class="card-header d-flex justify-content-between align-items-center">
+
+                    <h3 class="mb-0">
+                        User Profile
+                    </h3>
+
+                    <a href="{% url 'books:dashboard' %}"
+                       class="btn btn-secondary btn-sm">
+                        Back
+                    </a>
+
+                </div>
+
+                <div class="card-body">
+
+                    <div class="text-center mb-4">
+
+                        <i class="fas fa-user-circle fa-5x"></i>
+
+                        <h2 class="mt-3">
+                            {{ profile_user.username }}
+                        </h2>
+
+                    </div>
+
+                    <hr>
+
+                    <p>
+                        <strong>Username:</strong>
+                        {{ profile_user.username }}
+                    </p>
+
+                    <p>
+                        <strong>First name:</strong>
+                        {{ profile_user.first_name|default:"-" }}
+                    </p>
+
+                    <p>
+                        <strong>Last name:</strong>
+                        {{ profile_user.last_name|default:"-" }}
+                    </p>
+
+                    <p>
+                        <strong>Email:</strong>
+                        {{ profile_user.email|default:"-" }}
+                    </p>
+
+                    <p>
+                        <strong>Date joined:</strong>
+                        {{ profile_user.date_joined|date:"Y-m-d" }}
+                    </p>
+
+                    <p>
+                        <strong>Last login:</strong>
+                        {{ profile_user.last_login|date:"Y-m-d H:i" }}
+                    </p>
+
+                    <hr>
+
+                    <a href="{% url 'books:dashboard' %}"
+                       class="btn btn-primary">
+                        Dashboard
+                    </a>
+
+                    <a href="{% url 'books:book_list' %}"
+                       class="btn btn-secondary">
+                        Books
+                    </a>
+
+                    <a href="{% url 'books:book_history' %}"
+                       class="btn btn-info">
+                        History
+                    </a>
+
+                    <a href="{% url 'handleLogout' %}"
+                       class="btn btn-danger">
+                        Logout
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock body %}
