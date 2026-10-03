@@ -46,7 +46,30 @@ div{
 
 
 
+@media (min-width: 43.75em) {
+    body {
+        background: green;
+    }
+}
 
+/* Query #1 - Tablet View (772px) */
+@media (min-width: 48.25em) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid img {
+        max-height: 30vh;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+/* Query #2 - Large Screen View (998px) */
+@media (min-width: 62.375em) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 
 
 

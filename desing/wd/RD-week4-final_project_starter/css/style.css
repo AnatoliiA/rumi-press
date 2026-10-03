@@ -1,11 +1,16 @@
-body {
+/* body {
     background-color: #dedede;
-}
+} */
+
+/* div {
+    width: 24%;
+} */
+/* test */
 
 h1 {
     text-align: center;
     font-family:Arial, sans-serif;
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 a {
@@ -15,20 +20,20 @@ a {
 }
 
 p {
-   font-size: 25px;
+   font-size: 1.56em;
    font-family:Arial, sans-serif;
 }
 
-img{
+/* img{
   width:100%;
-}
+} */
 
 
 p{
   text-align:center;
 }
 
-div img{
+/* div img{
     width:150px;
     height: 150px;
     display:block;
@@ -40,9 +45,79 @@ div{
   width: 24%;
   margin: 5px;
   padding: 2px;
+} */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 43.75em;
+    margin: 0 auto;
+    padding: 10px;
 }
 
+.grid figure {
+    margin: 0;
+    text-align: center;
+}
 
+.grid img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+@media (max-width: 100) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid img {
+        max-width: 90%;
+    }
+    body {
+        background: blue;
+    }
+
+
+
+
+
+@media (max-width: 43.75em) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid img {
+        max-width: 90%;
+    }
+    body {
+        background: blue;
+    }
+}
+
+@media (max-width: 28.125em) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .grid img {
+        max-width: 70%;
+    }
+    body {
+        background: red;
+    }
+}
+
+@media (min-width: 28.125em) and (max-width: 43.75em) {
+    body {
+        background: blue;
+    }
+}
+
+@media (min-width: 43.75em) {
+    body {
+        background: green;
+    }
+}
 
 
 

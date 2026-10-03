@@ -8,3 +8,4 @@ github_settings.py
 db.save
 .ve*
 migrations
+.history/

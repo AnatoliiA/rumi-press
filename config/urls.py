@@ -21,6 +21,8 @@ from django.urls import include, re_path
 from django.contrib.auth import views as auth_views
 from django.views.static import serve
 import os
+from django.conf import settings
+
 
 urlpatterns = [
     path('', include('home.urls')),
@@ -31,6 +33,19 @@ urlpatterns = [
     path('home/', include('home.urls')),
     path('mkt/', include('mkt.urls')),
     path('books/', include('books.urls')),
+    path("design/", include("designs.urls")),
+
+    re_path(
+        r"^design/css/(?P<path>.*)$",
+        serve,
+        {"document_root": settings.DESIGN_DIR / "css"},
+    ),
+
+    re_path(
+        r"^design/images/(?P<path>.*)$",
+        serve,
+        {"document_root": settings.DESIGN_DIR / "images"},
+    ),
 ]
 
 # Serve the static HTML

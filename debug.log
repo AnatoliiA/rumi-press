@@ -406,3 +406,404 @@ INFO 2026-09-06 15:25:37,230 django.server 31996 14148 "GET /static/admin/img/ic
 INFO 2026-09-06 15:25:37,231 django.server 31996 32192 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
 INFO 2026-09-06 15:25:37,354 django.server 31996 27028 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
 INFO 2026-09-06 15:25:37,534 django.server 31996 564 "GET /admin/ HTTP/1.1" 200 13379
+INFO 2026-09-21 12:49:45,506 django.utils.autoreload 15588 24768 Watching for file changes with StatReloader
+INFO 2026-09-21 12:51:01,741 django.utils.autoreload 28476 15424 Watching for file changes with StatReloader
+INFO 2026-09-21 12:51:06,368 django.server 28476 26032 "GET / HTTP/1.1" 200 6385
+INFO 2026-09-21 12:51:06,515 django.server 28476 26032 "GET /static/login1.css HTTP/1.1" 304 0
+WARNING 2026-09-21 12:51:06,553 django.server 28476 26032 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+INFO 2026-09-21 12:51:06,734 django.server 28476 20148 "GET /static/img/burningm.jpg HTTP/1.1" 304 0
+INFO 2026-09-21 12:54:10,142 django.server 28476 20148 "POST /handlelogin/ HTTP/1.1" 302 0
+INFO 2026-09-21 12:54:10,148 django.server 28476 20148 "GET / HTTP/1.1" 200 6796
+WARNING 2026-09-21 12:54:10,203 django.server 28476 20148 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+INFO 2026-09-21 12:55:37,295 django.server 28476 14148 "POST /handlelogin/ HTTP/1.1" 302 0
+INFO 2026-09-21 12:55:37,323 django.server 28476 14148 "GET /index HTTP/1.1" 301 0
+INFO 2026-09-21 12:55:37,778 django.server 28476 30272 "GET /index/ HTTP/1.1" 200 9684
+INFO 2026-09-21 12:55:37,855 django.server 28476 30272 "GET /static/home.css HTTP/1.1" 304 0
+INFO 2026-09-21 12:55:37,859 django.server 28476 24844 "GET /static/addmoney.css HTTP/1.1" 304 0
+INFO 2026-09-21 12:55:37,860 django.server 28476 23680 "GET /static/img/unnamed.png HTTP/1.1" 304 0
+WARNING 2026-09-21 12:55:37,892 django.request 28476 23680 Not Found: /index/javascript/scripts.js
+WARNING 2026-09-21 12:55:37,893 django.server 28476 23680 "GET /index/javascript/scripts.js HTTP/1.1" 404 11242
+WARNING 2026-09-21 12:55:37,920 django.request 28476 23680 Not Found: /index/assets/demo/chart-area-demo.js
+WARNING 2026-09-21 12:55:37,947 django.request 28476 24844 Not Found: /index/assets/demo/chart-bar-demo.js
+WARNING 2026-09-21 12:55:37,938 django.request 28476 30272 Not Found: /index/assets/demo/datatables-demo.js
+WARNING 2026-09-21 12:55:37,950 django.server 28476 23680 "GET /index/assets/demo/chart-area-demo.js HTTP/1.1" 404 11269
+WARNING 2026-09-21 12:55:37,951 django.server 28476 24844 "GET /index/assets/demo/chart-bar-demo.js HTTP/1.1" 404 11266
+WARNING 2026-09-21 12:55:37,952 django.server 28476 30272 "GET /index/assets/demo/datatables-demo.js HTTP/1.1" 404 11269
+DEBUG 2026-09-21 12:55:55,715 books.views 28476 30272 Fetching book list for user: kambio
+INFO 2026-09-21 12:55:55,717 books.views 28476 30272 User kambio accessed the book list.
+INFO 2026-09-21 12:55:55,802 django.server 28476 30272 "GET /books/ HTTP/1.1" 200 7166
+WARNING 2026-09-21 12:55:55,900 django.server 28476 30272 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+INFO 2026-09-21 13:07:41,310 django.utils.autoreload 28476 15424 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-21 13:07:51,024 django.utils.autoreload 31496 29520 Watching for file changes with StatReloader
+INFO 2026-09-21 13:08:18,485 django.utils.autoreload 31496 29520 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-21 13:08:19,810 django.utils.autoreload 8064 7872 Watching for file changes with StatReloader
+INFO 2026-09-21 13:08:30,451 django.utils.autoreload 8064 7872 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-21 13:08:31,544 django.utils.autoreload 27692 9060 Watching for file changes with StatReloader
+INFO 2026-09-21 13:10:20,201 django.utils.autoreload 27692 9060 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-21 13:10:21,649 django.utils.autoreload 15596 29336 Watching for file changes with StatReloader
+INFO 2026-09-21 13:10:24,880 django.utils.autoreload 15596 29336 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-21 13:10:28,009 django.utils.autoreload 15116 30296 Watching for file changes with StatReloader
+INFO 2026-09-21 13:10:31,649 django.utils.autoreload 15116 30296 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-21 13:10:32,838 django.utils.autoreload 5288 8188 Watching for file changes with StatReloader
+INFO 2026-09-21 13:10:35,335 django.utils.autoreload 5288 8188 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-21 13:10:36,642 django.utils.autoreload 14632 15844 Watching for file changes with StatReloader
+INFO 2026-09-21 13:10:39,133 django.utils.autoreload 14632 15844 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-21 13:10:42,223 django.utils.autoreload 17452 29844 Watching for file changes with StatReloader
+INFO 2026-09-21 13:10:53,995 django.utils.autoreload 17452 29844 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-21 13:10:55,132 django.utils.autoreload 9084 3576 Watching for file changes with StatReloader
+INFO 2026-09-21 13:11:10,795 django.utils.autoreload 9084 3576 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-09-21 13:26:22,732 django.utils.autoreload 16212 22324 Watching for file changes with StatReloader
+INFO 2026-09-21 13:27:25,658 django.utils.autoreload 16212 22324 C:\Users\kamar\Documents\django\rumi-press\designs\urls.py changed, reloading.
+INFO 2026-09-21 13:27:31,526 django.utils.autoreload 30076 19756 Watching for file changes with StatReloader
+INFO 2026-09-21 13:29:10,117 django.utils.autoreload 29568 20432 Watching for file changes with StatReloader
+INFO 2026-09-21 13:29:13,866 django.server 29568 27760 "GET / HTTP/1.1" 302 0
+INFO 2026-09-21 13:29:14,076 django.server 29568 27760 "GET /index/ HTTP/1.1" 200 9389
+WARNING 2026-09-21 13:29:14,742 django.request 29568 27760 Not Found: /index/javascript/scripts.js
+WARNING 2026-09-21 13:29:14,780 django.server 29568 27760 "GET /index/javascript/scripts.js HTTP/1.1" 404 11392
+WARNING 2026-09-21 13:29:14,849 django.request 29568 27760 Not Found: /index/assets/demo/datatables-demo.js
+WARNING 2026-09-21 13:29:14,872 django.server 29568 27760 "GET /index/assets/demo/datatables-demo.js HTTP/1.1" 404 11419
+WARNING 2026-09-21 13:29:14,944 django.request 29568 30296 Not Found: /index/assets/demo/chart-bar-demo.js
+WARNING 2026-09-21 13:29:14,967 django.server 29568 30296 "GET /index/assets/demo/chart-bar-demo.js HTTP/1.1" 404 11416
+WARNING 2026-09-21 13:29:14,985 django.request 29568 22944 Not Found: /index/assets/demo/chart-area-demo.js
+WARNING 2026-09-21 13:29:14,994 django.server 29568 22944 "GET /index/assets/demo/chart-area-demo.js HTTP/1.1" 404 11419
+INFO 2026-09-21 13:29:30,029 django.server 29568 22944 "GET /design/ HTTP/1.1" 200 42
+INFO 2026-09-21 13:32:17,879 django.utils.autoreload 29568 20432 C:\Users\kamar\Documents\django\rumi-press\designs\views.py changed, reloading.
+INFO 2026-09-21 13:32:29,534 django.utils.autoreload 25404 352 Watching for file changes with StatReloader
+ERROR 2026-09-21 13:39:50,020 django.request 25404 14412 Internal Server Error: /design/
+Traceback (most recent call last):
+  File "C:\Users\kamar\.conda\envs\rumi313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kamar\.conda\envs\rumi313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\kamar\Documents\django\rumi-press\designs\views.py", line 7, in index
+    return render(
+        request,
+        "RD-week4-final_project_starter/index.html"
+    )
+  File "C:\Users\kamar\.conda\envs\rumi313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\kamar\.conda\envs\rumi313\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\kamar\.conda\envs\rumi313\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: RD-week4-final_project_starter/index.html
+ERROR 2026-09-21 13:39:50,103 django.server 25404 14412 "GET /design/ HTTP/1.1" 500 93578
+INFO 2026-09-21 13:44:09,140 django.utils.autoreload 26756 28924 Watching for file changes with StatReloader
+INFO 2026-09-21 13:44:15,706 django.server 26756 7620 "GET /design/ HTTP/1.1" 200 2105
+WARNING 2026-09-21 13:44:16,184 django.request 26756 18320 Not Found: /design/images/Green.png
+WARNING 2026-09-21 13:44:16,186 django.request 26756 31624 Not Found: /design/images/Blue.png
+WARNING 2026-09-21 13:44:16,186 django.request 26756 26124 Not Found: /design/images/Yellow.png
+WARNING 2026-09-21 13:44:16,198 django.request 26756 15452 Not Found: /design/images/Orange.png
+WARNING 2026-09-21 13:44:16,225 django.server 26756 18320 "GET /design/images/Green.png HTTP/1.1" 404 11491
+WARNING 2026-09-21 13:44:16,234 django.request 26756 23716 Not Found: /design/images/Red.jpeg
+WARNING 2026-09-21 13:44:16,245 django.server 26756 31624 "GET /design/images/Blue.png HTTP/1.1" 404 11488
+WARNING 2026-09-21 13:44:16,248 django.server 26756 26124 "GET /design/images/Yellow.png HTTP/1.1" 404 11494
+WARNING 2026-09-21 13:44:16,256 django.server 26756 15452 "GET /design/images/Orange.png HTTP/1.1" 404 11494
+WARNING 2026-09-21 13:44:16,307 django.server 26756 23716 "GET /design/images/Red.jpeg HTTP/1.1" 404 11488
+WARNING 2026-09-21 13:44:16,352 django.request 26756 18320 Not Found: /design/images/Indigo.jpeg
+WARNING 2026-09-21 13:44:16,410 django.request 26756 26124 Not Found: /design/images/White.png
+WARNING 2026-09-21 13:44:16,466 django.request 26756 31624 Not Found: /design/images/Purple.png
+WARNING 2026-09-21 13:44:16,491 django.request 26756 15452 Not Found: /design/images/Pink.jpeg
+WARNING 2026-09-21 13:44:16,493 django.server 26756 18320 "GET /design/images/Indigo.jpeg HTTP/1.1" 404 11497
+WARNING 2026-09-21 13:44:16,496 django.server 26756 26124 "GET /design/images/White.png HTTP/1.1" 404 11491
+WARNING 2026-09-21 13:44:16,501 django.server 26756 15452 "GET /design/images/Pink.jpeg HTTP/1.1" 404 11491
+WARNING 2026-09-21 13:44:16,502 django.server 26756 31624 "GET /design/images/Purple.png HTTP/1.1" 404 11494
+INFO 2026-09-21 13:44:16,542 django.server 26756 7620 "GET /static/design/css/style.css HTTP/1.1" 200 1587
+INFO 2026-09-21 13:49:05,519 django.server 26756 7620 "GET /design/ HTTP/1.1" 200 2135
+WARNING 2026-09-21 13:49:05,621 django.request 26756 7620 Not Found: /design/images/Red.jpeg
+WARNING 2026-09-21 13:49:05,663 django.request 26756 26124 Not Found: /design/images/Yellow.png
+WARNING 2026-09-21 13:49:05,710 django.request 26756 31624 Not Found: /design/images/Orange.png
+WARNING 2026-09-21 13:49:05,748 django.request 26756 18320 Not Found: /design/images/Green.png
+WARNING 2026-09-21 13:49:05,777 django.request 26756 23716 Not Found: /design/images/Indigo.jpeg
+WARNING 2026-09-21 13:49:05,786 django.server 26756 26124 "GET /design/images/Yellow.png HTTP/1.1" 404 11494
+WARNING 2026-09-21 13:49:05,787 django.server 26756 7620 "GET /design/images/Red.jpeg HTTP/1.1" 404 11488
+WARNING 2026-09-21 13:49:05,789 django.server 26756 31624 "GET /design/images/Orange.png HTTP/1.1" 404 11494
+WARNING 2026-09-21 13:49:05,796 django.server 26756 18320 "GET /design/images/Green.png HTTP/1.1" 404 11491
+WARNING 2026-09-21 13:49:05,802 django.server 26756 23716 "GET /design/images/Indigo.jpeg HTTP/1.1" 404 11497
+INFO 2026-09-21 13:49:05,837 django.server 26756 15452 "GET /static/design/images/Indigo.jpeg HTTP/1.1" 200 2433
+WARNING 2026-09-21 13:49:06,250 django.request 26756 31624 Not Found: /design/images/Purple.png
+WARNING 2026-09-21 13:49:06,287 django.request 26756 18320 Not Found: /design/images/White.png
+WARNING 2026-09-21 13:49:06,379 django.request 26756 23716 Not Found: /design/images/Pink.jpeg
+WARNING 2026-09-21 13:49:06,381 django.server 26756 31624 "GET /design/images/Purple.png HTTP/1.1" 404 11494
+WARNING 2026-09-21 13:49:06,416 django.server 26756 18320 "GET /design/images/White.png HTTP/1.1" 404 11491
+WARNING 2026-09-21 13:49:06,418 django.server 26756 23716 "GET /design/images/Pink.jpeg HTTP/1.1" 404 11491
+INFO 2026-09-21 13:50:47,426 django.utils.autoreload 26756 28924 C:\Users\kamar\Documents\django\rumi-press\config\urls.py changed, reloading.
+INFO 2026-09-21 13:51:03,240 django.utils.autoreload 7872 17068 Watching for file changes with StatReloader
+INFO 2026-09-21 13:52:14,192 django.utils.autoreload 7872 17068 C:\Users\kamar\Documents\django\rumi-press\config\urls.py changed, reloading.
+INFO 2026-09-21 13:52:15,875 django.utils.autoreload 29628 10144 Watching for file changes with StatReloader
+INFO 2026-09-21 13:52:40,712 django.server 29628 31680 "GET /design/ HTTP/1.1" 200 2105
+INFO 2026-09-21 13:52:41,455 django.server 29628 31516 "GET /design/images/Indigo.jpeg HTTP/1.1" 200 2433
+INFO 2026-09-21 13:52:41,532 django.server 29628 30444 "GET /design/images/Orange.png HTTP/1.1" 200 144
+INFO 2026-09-21 13:52:41,558 django.server 29628 31516 "GET /design/images/Purple.png HTTP/1.1" 200 3086
+INFO 2026-09-21 13:52:41,628 django.server 29628 31516 "GET /design/images/Pink.jpeg HTTP/1.1" 200 6643
+INFO 2026-09-21 13:52:41,651 django.server 29628 30444 "GET /design/images/White.png HTTP/1.1" 200 143
+INFO 2026-09-21 13:52:41,680 django.server 29628 31680 "GET /design/images/Red.jpeg HTTP/1.1" 200 2476436
+INFO 2026-09-21 13:52:41,772 django.server 29628 29520 "GET /design/images/Green.png HTTP/1.1" 200 144
+INFO 2026-09-21 13:52:41,826 django.server 29628 17920 "GET /design/images/Blue.png HTTP/1.1" 200 2809
+INFO 2026-09-21 13:52:41,846 django.server 29628 4768 "GET /design/images/Yellow.png HTTP/1.1" 200 2807
+INFO 2026-09-21 13:56:19,618 django.server 29628 4768 "GET / HTTP/1.1" 302 0
+INFO 2026-09-21 13:56:19,766 django.server 29628 4768 "GET /index/ HTTP/1.1" 200 9389
+WARNING 2026-09-21 13:56:19,945 django.request 29628 4768 Not Found: /index/javascript/scripts.js
+WARNING 2026-09-21 13:56:19,963 django.request 29628 29520 Not Found: /index/assets/demo/chart-bar-demo.js
+WARNING 2026-09-21 13:56:19,979 django.request 29628 17920 Not Found: /index/assets/demo/chart-area-demo.js
+WARNING 2026-09-21 13:56:19,992 django.request 29628 31680 Not Found: /index/assets/demo/datatables-demo.js
+WARNING 2026-09-21 13:56:20,036 django.server 29628 4768 "GET /index/javascript/scripts.js HTTP/1.1" 404 11743
+WARNING 2026-09-21 13:56:20,036 django.server 29628 29520 "GET /index/assets/demo/chart-bar-demo.js HTTP/1.1" 404 11767
+WARNING 2026-09-21 13:56:20,114 django.server 29628 31680 "GET /index/assets/demo/datatables-demo.js HTTP/1.1" 404 11770
+WARNING 2026-09-21 13:56:20,115 django.server 29628 17920 "GET /index/assets/demo/chart-area-demo.js HTTP/1.1" 404 11770
+INFO 2026-09-21 13:56:28,882 django.server 29628 17920 "GET /design/ HTTP/1.1" 200 2105
+INFO 2026-09-21 13:57:45,076 django.server 29628 17920 "GET /design/ HTTP/1.1" 200 2005
+INFO 2026-09-21 13:57:48,677 django.server 29628 17920 "GET /design/ HTTP/1.1" 200 2005
+INFO 2026-09-21 13:57:49,484 django.server 29628 17920 "GET /design/ HTTP/1.1" 200 2005
+INFO 2026-09-21 13:57:51,493 django.server 29628 17920 "GET /design/ HTTP/1.1" 200 2005
+INFO 2026-09-21 13:59:54,109 django.server 29628 17920 "GET /design/ HTTP/1.1" 200 2005
+INFO 2026-09-21 13:59:55,307 django.server 29628 17920 "GET /design/ HTTP/1.1" 200 2005
+INFO 2026-09-21 13:59:56,110 django.server 29628 17920 "GET /design/ HTTP/1.1" 200 2005
+INFO 2026-09-21 13:59:56,593 django.server 29628 17920 "GET /design/ HTTP/1.1" 200 2005
+INFO 2026-09-21 13:59:56,914 django.server 29628 17920 "GET /design/ HTTP/1.1" 200 2005
+INFO 2026-09-21 13:59:57,647 django.server 29628 17920 "GET /design/ HTTP/1.1" 200 2005
+INFO 2026-09-21 14:01:10,224 django.server 29628 17920 "GET /design/ HTTP/1.1" 200 2005
+INFO 2026-09-21 14:01:11,150 django.server 29628 17920 "GET /design/ HTTP/1.1" 200 2005
+INFO 2026-09-21 14:04:54,473 django.utils.autoreload 15456 27064 Watching for file changes with StatReloader
+INFO 2026-09-21 14:05:10,235 django.server 15456 30900 "GET /design/ HTTP/1.1" 200 2005
+INFO 2026-09-21 14:07:43,185 django.utils.autoreload 10052 24460 Watching for file changes with StatReloader
+INFO 2026-09-21 14:07:45,202 django.server 10052 22700 "GET /design/ HTTP/1.1" 200 2005
+INFO 2026-09-21 14:07:46,793 django.server 10052 22700 "GET /design/css/style.css HTTP/1.1" 200 1895
+INFO 2026-09-21 14:08:24,239 django.server 10052 22700 "GET /design/ HTTP/1.1" 200 2005
+INFO 2026-09-21 14:09:05,778 django.server 10052 22700 "GET /design/ HTTP/1.1" 200 2005
+INFO 2026-09-21 14:09:27,901 django.server 10052 22700 "GET /design/css/style.css HTTP/1.1" 200 1901
+INFO 2026-09-21 14:11:48,436 django.server 10052 22700 "GET /design/ HTTP/1.1" 200 1986
+INFO 2026-09-21 14:11:48,496 django.server 10052 22700 "GET /design/css/style.css?v=2 HTTP/1.1" 200 1901
+INFO 2026-09-21 14:14:13,309 django.server 10052 22700 "GET /design/ HTTP/1.1" 200 1986
+INFO 2026-09-21 14:14:13,393 django.server 10052 22700 "GET /design/css/style.css?v=2 HTTP/1.1" 200 2174
+INFO 2026-09-21 14:51:23,117 django.server 10052 22548 "GET /design/ HTTP/1.1" 200 1986
+INFO 2026-09-21 14:51:23,180 django.server 10052 22548 "GET /design/css/style.css?v=2 HTTP/1.1" 200 2180
+INFO 2026-09-27 21:26:34,697 django.utils.autoreload 31672 22932 Watching for file changes with StatReloader
+INFO 2026-09-27 21:26:42,626 django.server 31672 2736 "GET / HTTP/1.1" 302 0
+INFO 2026-09-27 21:26:42,859 django.server 31672 2736 "GET /index/ HTTP/1.1" 200 9389
+INFO 2026-09-27 21:26:43,192 django.server 31672 2736 "GET /static/home.css HTTP/1.1" 304 0
+INFO 2026-09-27 21:26:43,214 django.server 31672 25440 "GET /static/addmoney.css HTTP/1.1" 304 0
+INFO 2026-09-27 21:26:43,238 django.server 31672 26008 "GET /static/img/unnamed.png HTTP/1.1" 304 0
+WARNING 2026-09-27 21:26:43,506 django.request 31672 25440 Not Found: /index/assets/demo/chart-area-demo.js
+WARNING 2026-09-27 21:26:43,506 django.request 31672 26008 Not Found: /index/javascript/scripts.js
+WARNING 2026-09-27 21:26:43,507 django.request 31672 2736 Not Found: /index/assets/demo/chart-bar-demo.js
+WARNING 2026-09-27 21:26:43,507 django.request 31672 29920 Not Found: /index/assets/demo/datatables-demo.js
+WARNING 2026-09-27 21:26:43,510 django.server 31672 25440 "GET /index/assets/demo/chart-area-demo.js HTTP/1.1" 404 11770
+WARNING 2026-09-27 21:26:43,510 django.server 31672 26008 "GET /index/javascript/scripts.js HTTP/1.1" 404 11743
+WARNING 2026-09-27 21:26:43,512 django.server 31672 29920 "GET /index/assets/demo/datatables-demo.js HTTP/1.1" 404 11770
+WARNING 2026-09-27 21:26:43,513 django.server 31672 2736 "GET /index/assets/demo/chart-bar-demo.js HTTP/1.1" 404 11767
+WARNING 2026-09-27 21:27:53,310 django.request 31672 2736 Not Found: /ibooks
+WARNING 2026-09-27 21:27:53,312 django.server 31672 2736 "GET /ibooks HTTP/1.1" 404 11680
+DEBUG 2026-09-27 21:27:58,128 books.views 31672 2736 Fetching book list for user: kambio
+INFO 2026-09-27 21:27:58,129 books.views 31672 2736 User kambio accessed the book list.
+INFO 2026-09-27 21:27:58,273 django.server 31672 2736 "GET /books/ HTTP/1.1" 200 7166
+WARNING 2026-09-27 21:27:58,309 django.server 31672 2736 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+INFO 2026-10-02 23:08:34,537 django.utils.autoreload 35452 35512 Watching for file changes with StatReloader
+INFO 2026-10-02 23:33:18,365 django.utils.autoreload 32212 25276 Watching for file changes with StatReloader
+INFO 2026-10-02 23:33:23,001 django.server 32212 30424 "GET / HTTP/1.1" 302 0
+INFO 2026-10-02 23:33:23,458 django.server 32212 30424 "GET /index/ HTTP/1.1" 200 9389
+INFO 2026-10-02 23:33:23,808 django.server 32212 30424 "GET /static/home.css HTTP/1.1" 304 0
+INFO 2026-10-02 23:33:23,825 django.server 32212 3940 "GET /static/img/unnamed.png HTTP/1.1" 304 0
+INFO 2026-10-02 23:33:23,940 django.server 32212 11436 "GET /static/addmoney.css HTTP/1.1" 304 0
+WARNING 2026-10-02 23:33:24,210 django.request 32212 35748 Not Found: /index/assets/demo/datatables-demo.js
+WARNING 2026-10-02 23:33:24,211 django.request 32212 3940 Not Found: /index/assets/demo/chart-area-demo.js
+WARNING 2026-10-02 23:33:24,212 django.request 32212 30424 Not Found: /index/assets/demo/chart-bar-demo.js
+WARNING 2026-10-02 23:33:24,212 django.request 32212 11436 Not Found: /index/javascript/scripts.js
+WARNING 2026-10-02 23:33:24,216 django.server 32212 35748 "GET /index/assets/demo/datatables-demo.js HTTP/1.1" 404 11770
+WARNING 2026-10-02 23:33:24,218 django.server 32212 3940 "GET /index/assets/demo/chart-area-demo.js HTTP/1.1" 404 11770
+WARNING 2026-10-02 23:33:24,221 django.server 32212 30424 "GET /index/assets/demo/chart-bar-demo.js HTTP/1.1" 404 11767
+WARNING 2026-10-02 23:33:24,222 django.server 32212 11436 "GET /index/javascript/scripts.js HTTP/1.1" 404 11743
+DEBUG 2026-10-02 23:33:35,209 books.views 32212 30424 Fetching book list for user: kambio
+INFO 2026-10-02 23:33:35,211 books.views 32212 30424 User kambio accessed the book list.
+INFO 2026-10-02 23:33:35,349 django.server 32212 30424 "GET /books/ HTTP/1.1" 200 7166
+WARNING 2026-10-02 23:33:35,425 django.server 32212 30424 "GET /static/js/scripts.js HTTP/1.1" 404 1853
+WARNING 2026-10-02 23:33:58,844 django.request 32212 11436 Not Found: /designs
+WARNING 2026-10-02 23:33:58,845 django.server 32212 11436 "GET /designs HTTP/1.1" 404 11683
+INFO 2026-10-02 23:34:03,257 django.server 32212 11436 "GET /design HTTP/1.1" 301 0
+INFO 2026-10-02 23:34:03,334 django.server 32212 3940 "GET /design/ HTTP/1.1" 200 1986
+INFO 2026-10-02 23:34:03,448 django.server 32212 35748 "GET /design/images/Red.jpeg HTTP/1.1" 304 0
+INFO 2026-10-02 23:34:03,449 django.server 32212 27100 "GET /design/images/Yellow.png HTTP/1.1" 304 0
+INFO 2026-10-02 23:34:03,449 django.server 32212 32740 "GET /design/images/Green.png HTTP/1.1" 304 0
+INFO 2026-10-02 23:34:03,450 django.server 32212 35124 "GET /design/images/Orange.png HTTP/1.1" 304 0
+INFO 2026-10-02 23:34:03,453 django.server 32212 35748 "GET /design/images/Pink.jpeg HTTP/1.1" 304 0
+INFO 2026-10-02 23:34:03,455 django.server 32212 32740 "GET /design/images/White.png HTTP/1.1" 304 0
+INFO 2026-10-02 23:34:03,456 django.server 32212 27100 "GET /design/images/Purple.png HTTP/1.1" 304 0
+INFO 2026-10-02 23:34:03,459 django.server 32212 24540 "GET /design/images/Blue.png HTTP/1.1" 304 0
+INFO 2026-10-02 23:34:03,464 django.server 32212 35124 "GET /design/images/Indigo.jpeg HTTP/1.1" 304 0
+INFO 2026-10-02 23:34:03,588 django.server 32212 3940 "GET /design/css/style.css?v=2 HTTP/1.1" 200 2184
+INFO 2026-10-02 23:35:08,459 django.utils.autoreload 32212 25276 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-10-02 23:35:13,066 django.utils.autoreload 16028 31784 Watching for file changes with StatReloader
+INFO 2026-10-02 23:38:57,757 django.utils.autoreload 35560 32968 Watching for file changes with StatReloader
+INFO 2026-10-02 23:39:05,589 django.server 35560 24104 "GET /design/ HTTP/1.1" 200 1986
+INFO 2026-10-02 23:49:34,389 django.server 35560 24552 "GET /design/ HTTP/1.1" 200 1986
+INFO 2026-10-03 00:14:51,384 django.utils.autoreload 6424 25560 Watching for file changes with StatReloader
+INFO 2026-10-03 00:14:55,663 django.server 6424 24120 "GET / HTTP/1.1" 302 0
+INFO 2026-10-03 00:14:55,878 django.server 6424 24120 "GET /index/ HTTP/1.1" 200 9389
+WARNING 2026-10-03 00:14:56,774 django.request 6424 24120 Not Found: /index/javascript/scripts.js
+WARNING 2026-10-03 00:14:56,776 django.server 6424 24120 "GET /index/javascript/scripts.js HTTP/1.1" 404 11743
+WARNING 2026-10-03 00:14:57,467 django.request 6424 24120 Not Found: /index/assets/demo/chart-area-demo.js
+WARNING 2026-10-03 00:14:57,470 django.server 6424 24120 "GET /index/assets/demo/chart-area-demo.js HTTP/1.1" 404 11770
+WARNING 2026-10-03 00:14:57,668 django.request 6424 20756 Not Found: /index/assets/demo/chart-bar-demo.js
+WARNING 2026-10-03 00:14:57,708 django.server 6424 20756 "GET /index/assets/demo/chart-bar-demo.js HTTP/1.1" 404 11767
+WARNING 2026-10-03 00:14:57,786 django.request 6424 32836 Not Found: /index/assets/demo/datatables-demo.js
+WARNING 2026-10-03 00:14:57,789 django.server 6424 32836 "GET /index/assets/demo/datatables-demo.js HTTP/1.1" 404 11770
+INFO 2026-10-03 00:15:05,537 django.server 6424 32836 "GET /design/ HTTP/1.1" 200 1986
+INFO 2026-10-03 00:22:21,895 django.utils.autoreload 27472 15068 Watching for file changes with StatReloader
+INFO 2026-10-03 00:22:23,949 django.server 27472 23912 "GET /design/ HTTP/1.1" 200 1986
+INFO 2026-10-03 00:22:25,013 django.server 27472 23912 "GET /design/ HTTP/1.1" 200 1986
+INFO 2026-10-03 00:22:26,055 django.server 27472 23912 "GET /design/ HTTP/1.1" 200 1986
+INFO 2026-10-03 00:22:27,046 django.server 27472 23912 "GET /design/ HTTP/1.1" 200 1986
+INFO 2026-10-03 11:09:09,701 django.utils.autoreload 27408 19208 Watching for file changes with StatReloader
+INFO 2026-10-03 11:09:14,769 django.server 27408 17596 "GET /design/ HTTP/1.1" 200 1986
+INFO 2026-10-03 11:11:23,946 django.server 27408 17596 "GET /design/ HTTP/1.1" 200 1986
+INFO 2026-10-03 11:16:26,559 django.server 27408 29056 "GET /design/ HTTP/1.1" 200 1986
+INFO 2026-10-03 11:43:31,813 django.utils.autoreload 20164 10208 Watching for file changes with StatReloader
+INFO 2026-10-03 11:43:35,491 django.server 20164 18768 "GET / HTTP/1.1" 302 0
+INFO 2026-10-03 11:43:35,869 django.server 20164 18768 "GET /index/ HTTP/1.1" 200 9389
+WARNING 2026-10-03 11:43:37,353 django.request 20164 18768 Not Found: /index/javascript/scripts.js
+WARNING 2026-10-03 11:43:37,534 django.server 20164 18768 "GET /index/javascript/scripts.js HTTP/1.1" 404 11743
+WARNING 2026-10-03 11:43:37,757 django.request 20164 11380 Not Found: /index/assets/demo/datatables-demo.js
+WARNING 2026-10-03 11:43:37,761 django.server 20164 11380 "GET /index/assets/demo/datatables-demo.js HTTP/1.1" 404 11770
+WARNING 2026-10-03 11:43:38,013 django.request 20164 18996 Not Found: /index/assets/demo/chart-area-demo.js
+WARNING 2026-10-03 11:43:38,026 django.server 20164 18996 "GET /index/assets/demo/chart-area-demo.js HTTP/1.1" 404 11770
+WARNING 2026-10-03 11:43:38,092 django.request 20164 29636 Not Found: /index/assets/demo/chart-bar-demo.js
+WARNING 2026-10-03 11:43:38,102 django.server 20164 29636 "GET /index/assets/demo/chart-bar-demo.js HTTP/1.1" 404 11767
+INFO 2026-10-03 11:43:44,929 django.server 20164 29636 "GET /design/ HTTP/1.1" 200 2065
+WARNING 2026-10-03 11:43:44,963 django.request 20164 18996 Not Found: /design/design/images/Red.jpeg
+WARNING 2026-10-03 11:43:44,975 django.request 20164 18768 Not Found: /design/design/images/Yellow.png
+WARNING 2026-10-03 11:43:44,985 django.request 20164 29636 Not Found: /design/design/css/style.css
+WARNING 2026-10-03 11:43:44,998 django.request 20164 11380 Not Found: /design/design/images/Orange.png
+WARNING 2026-10-03 11:43:45,000 django.server 20164 18996 "GET /design/design/images/Red.jpeg HTTP/1.1" 404 11860
+WARNING 2026-10-03 11:43:45,002 django.server 20164 29636 "GET /design/design/css/style.css?v=2 HTTP/1.1" 404 11858
+WARNING 2026-10-03 11:43:45,002 django.server 20164 18768 "GET /design/design/images/Yellow.png HTTP/1.1" 404 11866
+WARNING 2026-10-03 11:43:45,004 django.server 20164 11380 "GET /design/design/images/Orange.png HTTP/1.1" 404 11866
+WARNING 2026-10-03 11:43:45,013 django.request 20164 28720 Not Found: /design/design/images/Blue.png
+WARNING 2026-10-03 11:43:45,026 django.request 20164 28028 Not Found: /design/design/images/Green.png
+WARNING 2026-10-03 11:43:45,037 django.request 20164 18996 Not Found: /design/design/images/Indigo.jpeg
+WARNING 2026-10-03 11:43:45,045 django.request 20164 29636 Not Found: /design/design/images/Pink.jpeg
+WARNING 2026-10-03 11:43:45,062 django.request 20164 18768 Not Found: /design/design/images/Purple.png
+WARNING 2026-10-03 11:43:45,071 django.request 20164 11380 Not Found: /design/design/images/White.png
+WARNING 2026-10-03 11:43:45,072 django.server 20164 28720 "GET /design/design/images/Blue.png HTTP/1.1" 404 11860
+WARNING 2026-10-03 11:43:45,073 django.server 20164 18996 "GET /design/design/images/Indigo.jpeg HTTP/1.1" 404 11869
+WARNING 2026-10-03 11:43:45,074 django.server 20164 28028 "GET /design/design/images/Green.png HTTP/1.1" 404 11863
+WARNING 2026-10-03 11:43:45,075 django.server 20164 29636 "GET /design/design/images/Pink.jpeg HTTP/1.1" 404 11863
+WARNING 2026-10-03 11:43:45,075 django.server 20164 18768 "GET /design/design/images/Purple.png HTTP/1.1" 404 11866
+WARNING 2026-10-03 11:43:45,077 django.server 20164 11380 "GET /design/design/images/White.png HTTP/1.1" 404 11863
+WARNING 2026-10-03 11:43:45,093 django.request 20164 28720 Not Found: /design/design/css/style.css
+WARNING 2026-10-03 11:43:45,095 django.server 20164 28720 "GET /design/design/css/style.css?v=2 HTTP/1.1" 404 11858
+INFO 2026-10-03 11:43:53,860 django.server 20164 28720 "GET /design/ HTTP/1.1" 200 2065
+WARNING 2026-10-03 11:43:53,887 django.request 20164 18768 Not Found: /design/design/images/Red.jpeg
+WARNING 2026-10-03 11:43:53,889 django.request 20164 28720 Not Found: /design/design/css/style.css
+WARNING 2026-10-03 11:43:53,896 django.request 20164 11380 Not Found: /design/design/images/Orange.png
+WARNING 2026-10-03 11:43:53,910 django.request 20164 29636 Not Found: /design/design/images/Green.png
+WARNING 2026-10-03 11:43:53,912 django.server 20164 18768 "GET /design/design/images/Red.jpeg HTTP/1.1" 404 11860
+WARNING 2026-10-03 11:43:53,924 django.request 20164 28028 Not Found: /design/design/images/Blue.png
+WARNING 2026-10-03 11:43:53,937 django.request 20164 18996 Not Found: /design/design/images/Yellow.png
+WARNING 2026-10-03 11:43:53,939 django.server 20164 28720 "GET /design/design/css/style.css?v=2 HTTP/1.1" 404 11858
+WARNING 2026-10-03 11:43:53,943 django.server 20164 29636 "GET /design/design/images/Green.png HTTP/1.1" 404 11863
+WARNING 2026-10-03 11:43:53,943 django.server 20164 11380 "GET /design/design/images/Orange.png HTTP/1.1" 404 11866
+WARNING 2026-10-03 11:43:53,944 django.server 20164 28028 "GET /design/design/images/Blue.png HTTP/1.1" 404 11860
+WARNING 2026-10-03 11:43:53,947 django.server 20164 18996 "GET /design/design/images/Yellow.png HTTP/1.1" 404 11866
+WARNING 2026-10-03 11:43:53,961 django.request 20164 28720 Not Found: /design/design/images/Indigo.jpeg
+WARNING 2026-10-03 11:43:53,973 django.request 20164 18768 Not Found: /design/design/images/Pink.jpeg
+WARNING 2026-10-03 11:43:53,988 django.request 20164 29636 Not Found: /design/design/images/Purple.png
+WARNING 2026-10-03 11:43:53,998 django.request 20164 11380 Not Found: /design/design/images/White.png
+WARNING 2026-10-03 11:43:54,001 django.server 20164 18768 "GET /design/design/images/Pink.jpeg HTTP/1.1" 404 11863
+WARNING 2026-10-03 11:43:54,002 django.server 20164 28720 "GET /design/design/images/Indigo.jpeg HTTP/1.1" 404 11869
+WARNING 2026-10-03 11:43:54,004 django.server 20164 29636 "GET /design/design/images/Purple.png HTTP/1.1" 404 11866
+WARNING 2026-10-03 11:43:54,004 django.server 20164 11380 "GET /design/design/images/White.png HTTP/1.1" 404 11863
+INFO 2026-10-03 11:45:17,199 django.server 20164 29636 "GET /design/ HTTP/1.1" 200 2003
+INFO 2026-10-03 11:46:42,279 django.server 20164 29636 "GET /design/ HTTP/1.1" 200 2003
+INFO 2026-10-03 11:47:17,233 django.server 20164 1512 "GET /design/ HTTP/1.1" 200 2003
+INFO 2026-10-03 11:47:18,025 django.server 20164 1512 "GET /design/css/style.css?v=2 HTTP/1.1" 200 2314
+INFO 2026-10-03 11:47:18,404 django.server 20164 8380 "GET /design/images/Orange.png HTTP/1.1" 200 144
+INFO 2026-10-03 11:47:18,779 django.server 20164 26688 "GET /design/images/Red.jpeg HTTP/1.1" 200 2476436
+INFO 2026-10-03 11:47:18,795 django.server 20164 8380 "GET /design/images/Yellow.png HTTP/1.1" 200 2807
+INFO 2026-10-03 11:47:18,802 django.server 20164 1512 "GET /design/images/Green.png HTTP/1.1" 200 144
+INFO 2026-10-03 11:47:18,817 django.server 20164 7968 "GET /design/images/Blue.png HTTP/1.1" 200 2809
+INFO 2026-10-03 11:47:18,820 django.server 20164 5104 "GET /design/images/Indigo.jpeg HTTP/1.1" 200 2433
+INFO 2026-10-03 11:47:18,889 django.server 20164 7968 "GET /design/images/White.png HTTP/1.1" 200 143
+INFO 2026-10-03 11:47:18,893 django.server 20164 26688 "GET /design/images/Pink.jpeg HTTP/1.1" 200 6643
+INFO 2026-10-03 11:47:18,895 django.server 20164 17872 "GET /design/images/Purple.png HTTP/1.1" 200 3086
+INFO 2026-10-03 11:47:19,517 django.server 20164 17872 "GET /favicon.ico HTTP/1.1" 200 15406
+INFO 2026-10-03 11:48:58,049 django.server 20164 17872 "GET /design/ HTTP/1.1" 200 2003
+INFO 2026-10-03 11:48:58,106 django.server 20164 17872 "GET /design/css/style.css?v=2 HTTP/1.1" 200 2289
+INFO 2026-10-03 11:48:58,114 django.server 20164 7968 "GET /design/images/Orange.png HTTP/1.1" 200 144
+INFO 2026-10-03 11:48:58,146 django.server 20164 26688 "GET /design/images/Red.jpeg HTTP/1.1" 200 2476436
+INFO 2026-10-03 11:48:58,329 django.server 20164 1512 "GET /design/images/Indigo.jpeg HTTP/1.1" 200 2433
+INFO 2026-10-03 11:48:58,330 django.server 20164 5104 "GET /design/images/Blue.png HTTP/1.1" 200 2809
+INFO 2026-10-03 11:48:58,330 django.server 20164 17872 "GET /design/images/Green.png HTTP/1.1" 200 144
+INFO 2026-10-03 11:48:58,330 django.server 20164 7968 "GET /design/images/Yellow.png HTTP/1.1" 200 2807
+INFO 2026-10-03 11:48:58,331 django.server 20164 8380 "GET /design/images/Purple.png HTTP/1.1" 200 3086
+INFO 2026-10-03 11:48:58,358 django.server 20164 8380 "GET /design/images/White.png HTTP/1.1" 200 143
+INFO 2026-10-03 11:48:58,358 django.server 20164 26688 "GET /design/images/Pink.jpeg HTTP/1.1" 200 6643
+INFO 2026-10-03 11:48:58,368 django.server 20164 26688 "GET /favicon.ico HTTP/1.1" 200 15406
+WARNING 2026-10-03 11:49:38,115 django.request 20164 26688 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-10-03 11:49:38,117 django.server 20164 26688 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 11806
+INFO 2026-10-03 11:49:38,260 django.server 20164 26688 "GET /design/css/style.css?v=2 HTTP/1.1" 304 0
+INFO 2026-10-03 11:51:52,511 django.server 20164 26688 "GET /design/ HTTP/1.1" 200 2003
+WARNING 2026-10-03 11:51:52,642 django.request 20164 8380 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+INFO 2026-10-03 11:51:52,643 django.server 20164 26688 "GET /design/css/style.css?v=2 HTTP/1.1" 200 2361
+INFO 2026-10-03 11:51:52,643 django.server 20164 5104 "GET /design/images/Orange.png HTTP/1.1" 200 144
+WARNING 2026-10-03 11:51:52,644 django.server 20164 8380 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 11806
+INFO 2026-10-03 11:51:52,677 django.server 20164 7968 "GET /design/images/Red.jpeg HTTP/1.1" 200 2476436
+INFO 2026-10-03 11:51:52,839 django.server 20164 5104 "GET /design/images/Green.png HTTP/1.1" 200 144
+INFO 2026-10-03 11:51:52,841 django.server 20164 26688 "GET /design/images/Blue.png HTTP/1.1" 200 2809
+INFO 2026-10-03 11:51:52,841 django.server 20164 8380 "GET /design/images/Yellow.png HTTP/1.1" 200 2807
+INFO 2026-10-03 11:51:52,841 django.server 20164 1512 "GET /design/images/Indigo.jpeg HTTP/1.1" 200 2433
+INFO 2026-10-03 11:51:52,842 django.server 20164 17872 "GET /design/images/Purple.png HTTP/1.1" 200 3086
+INFO 2026-10-03 11:51:52,844 django.server 20164 7968 "GET /design/images/Pink.jpeg HTTP/1.1" 200 6643
+INFO 2026-10-03 11:51:52,846 django.server 20164 1512 "GET /design/images/White.png HTTP/1.1" 200 143
+INFO 2026-10-03 11:51:52,907 django.server 20164 1512 "GET /favicon.ico HTTP/1.1" 200 15406
+INFO 2026-10-03 11:55:01,734 django.server 20164 1512 "GET /design/ HTTP/1.1" 200 2003
+WARNING 2026-10-03 11:55:01,829 django.request 20164 1512 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-10-03 11:55:01,830 django.server 20164 1512 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 11806
+INFO 2026-10-03 11:55:01,831 django.server 20164 7968 "GET /design/css/style.css?v=2 HTTP/1.1" 200 2459
+INFO 2026-10-03 11:55:01,837 django.server 20164 8380 "GET /design/images/Orange.png HTTP/1.1" 200 144
+INFO 2026-10-03 11:55:01,875 django.server 20164 17872 "GET /design/images/Red.jpeg HTTP/1.1" 200 2476436
+INFO 2026-10-03 11:55:02,063 django.server 20164 8380 "GET /design/images/Yellow.png HTTP/1.1" 200 2807
+INFO 2026-10-03 11:55:02,064 django.server 20164 17872 "GET /design/images/Green.png HTTP/1.1" 200 144
+INFO 2026-10-03 11:55:02,065 django.server 20164 7968 "GET /design/images/Blue.png HTTP/1.1" 200 2809
+INFO 2026-10-03 11:55:02,066 django.server 20164 1512 "GET /design/images/Indigo.jpeg HTTP/1.1" 200 2433
+INFO 2026-10-03 11:55:02,066 django.server 20164 26688 "GET /design/images/Pink.jpeg HTTP/1.1" 200 6643
+INFO 2026-10-03 11:55:02,066 django.server 20164 5104 "GET /design/images/Purple.png HTTP/1.1" 200 3086
+INFO 2026-10-03 11:55:02,078 django.server 20164 8380 "GET /design/images/White.png HTTP/1.1" 200 143
+INFO 2026-10-03 11:55:02,166 django.server 20164 8380 "GET /favicon.ico HTTP/1.1" 200 15406
+INFO 2026-10-03 14:02:23,003 django.server 20164 28004 "GET / HTTP/1.1" 302 0
+INFO 2026-10-03 14:02:24,097 django.server 20164 28004 "GET /index/ HTTP/1.1" 200 9389
+WARNING 2026-10-03 14:02:26,469 django.request 20164 16676 Not Found: /index/assets/demo/datatables-demo.js
+WARNING 2026-10-03 14:02:26,484 django.server 20164 16676 "GET /index/assets/demo/datatables-demo.js HTTP/1.1" 404 11770
+WARNING 2026-10-03 14:02:26,496 django.request 20164 28004 Not Found: /index/javascript/scripts.js
+WARNING 2026-10-03 14:02:26,500 django.server 20164 28004 "GET /index/javascript/scripts.js HTTP/1.1" 404 11743
+WARNING 2026-10-03 14:02:27,240 django.request 20164 13672 Not Found: /index/assets/demo/chart-bar-demo.js
+WARNING 2026-10-03 14:02:27,256 django.server 20164 13672 "GET /index/assets/demo/chart-bar-demo.js HTTP/1.1" 404 11767
+WARNING 2026-10-03 14:02:27,669 django.request 20164 29920 Not Found: /index/assets/demo/chart-area-demo.js
+WARNING 2026-10-03 14:02:27,708 django.server 20164 29920 "GET /index/assets/demo/chart-area-demo.js HTTP/1.1" 404 11770
+INFO 2026-10-03 14:02:27,948 django.server 20164 13672 "GET /index/ HTTP/1.1" 200 9389
+WARNING 2026-10-03 14:02:28,226 django.request 20164 29920 Not Found: /index/assets/demo/chart-area-demo.js
+WARNING 2026-10-03 14:02:28,266 django.request 20164 16676 Not Found: /index/assets/demo/datatables-demo.js
+WARNING 2026-10-03 14:02:28,309 django.request 20164 13672 Not Found: /index/javascript/scripts.js
+WARNING 2026-10-03 14:02:28,371 django.server 20164 13672 "GET /index/javascript/scripts.js HTTP/1.1" 404 11743
+WARNING 2026-10-03 14:02:28,349 django.server 20164 16676 "GET /index/assets/demo/datatables-demo.js HTTP/1.1" 404 11770
+WARNING 2026-10-03 14:02:28,369 django.server 20164 29920 "GET /index/assets/demo/chart-area-demo.js HTTP/1.1" 404 11770
+WARNING 2026-10-03 14:02:28,340 django.request 20164 28004 Not Found: /index/assets/demo/chart-bar-demo.js
+WARNING 2026-10-03 14:02:28,407 django.server 20164 28004 "GET /index/assets/demo/chart-bar-demo.js HTTP/1.1" 404 11767
+INFO 2026-10-03 14:52:52,067 django.utils.autoreload 20164 10208 C:\Users\kamar\Documents\django\rumi-press\config\settings.py changed, reloading.
+INFO 2026-10-03 14:57:06,456 django.utils.autoreload 20104 14932 Watching for file changes with StatReloader
+INFO 2026-10-03 14:57:14,216 django.server 20104 31620 "GET /design/ HTTP/1.1" 200 2161
+INFO 2026-10-03 14:57:14,248 django.server 20104 31620 "GET /design/css/style.css HTTP/1.1" 304 0
+INFO 2026-10-03 14:58:41,694 django.server 20104 31620 "GET /design/ HTTP/1.1" 200 2161
+INFO 2026-10-03 15:02:25,932 django.server 20104 31620 "GET /design/ HTTP/1.1" 200 2161
+INFO 2026-10-03 15:02:27,260 django.server 20104 31620 "GET /design/ HTTP/1.1" 200 2161
+INFO 2026-10-03 15:05:17,290 django.server 20104 31620 "GET /design/ HTTP/1.1" 200 2161
+INFO 2026-10-03 15:05:17,801 django.server 20104 31620 "GET /design/ HTTP/1.1" 200 2161
+INFO 2026-10-03 15:05:18,158 django.server 20104 31620 "GET /design/ HTTP/1.1" 200 2161
+INFO 2026-10-03 15:05:19,051 django.server 20104 31620 "GET /design/ HTTP/1.1" 200 2161
+INFO 2026-10-03 15:05:19,505 django.server 20104 31620 "GET /design/ HTTP/1.1" 200 2161
+INFO 2026-10-03 15:05:19,869 django.server 20104 31620 "GET /design/ HTTP/1.1" 200 2161
+INFO 2026-10-03 15:05:23,486 django.server 20104 31620 "GET /design/ HTTP/1.1" 200 2161
+INFO 2026-10-03 15:07:28,404 django.server 20104 31620 "GET /design/ HTTP/1.1" 200 2161
+INFO 2026-10-03 15:07:30,567 django.server 20104 31620 "GET /design/ HTTP/1.1" 200 2161
+INFO 2026-10-03 15:07:31,120 django.server 20104 31620 "GET /design/ HTTP/1.1" 200 2161
+INFO 2026-10-03 15:12:37,308 django.server 20104 29988 "GET /design/ HTTP/1.1" 200 2161
+INFO 2026-10-03 15:20:03,299 django.utils.autoreload 22396 8256 Watching for file changes with StatReloader
