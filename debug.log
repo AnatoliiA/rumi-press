@@ -807,3 +807,17 @@ INFO 2026-10-03 15:07:30,567 django.server 20104 31620 "GET /design/ HTTP/1.1" 2
 INFO 2026-10-03 15:07:31,120 django.server 20104 31620 "GET /design/ HTTP/1.1" 200 2161
 INFO 2026-10-03 15:12:37,308 django.server 20104 29988 "GET /design/ HTTP/1.1" 200 2161
 INFO 2026-10-03 15:20:03,299 django.utils.autoreload 22396 8256 Watching for file changes with StatReloader
+INFO 2026-10-03 15:20:07,684 django.server 22396 31128 "GET /design/ HTTP/1.1" 200 2161
+INFO 2026-10-03 15:20:08,647 django.server 22396 31128 "GET /design/ HTTP/1.1" 200 2161
+INFO 2026-10-03 15:20:09,217 django.server 22396 31128 "GET /design/ HTTP/1.1" 200 2161
+INFO 2026-10-03 15:20:26,566 django.server 22396 14868 "GET /design/ HTTP/1.1" 200 2161
+INFO 2026-10-03 15:20:27,348 django.server 22396 17372 "GET /design/images/Orange.png HTTP/1.1" 200 144
+INFO 2026-10-03 15:20:27,384 django.server 22396 14868 "GET /design/css/style.css HTTP/1.1" 200 2060
+INFO 2026-10-03 15:20:27,697 django.server 22396 17372 "GET /design/images/Green.png HTTP/1.1" 200 144
+INFO 2026-10-03 15:20:27,707 django.server 22396 14868 "GET /design/images/Yellow.png HTTP/1.1" 200 2807
+INFO 2026-10-03 15:20:27,717 django.server 22396 28680 "GET /design/images/Blue.png HTTP/1.1" 200 2809
+INFO 2026-10-03 15:20:27,718 django.server 22396 14868 "GET /design/images/White.png HTTP/1.1" 200 143
+INFO 2026-10-03 15:20:27,719 django.server 22396 17372 "GET /design/images/Pink.jpeg HTTP/1.1" 200 6643
+INFO 2026-10-03 15:20:27,725 django.server 22396 26052 "GET /design/images/Indigo.jpeg HTTP/1.1" 200 2433
+INFO 2026-10-03 15:20:27,733 django.server 22396 20320 "GET /design/images/Purple.png HTTP/1.1" 200 3086
+INFO 2026-10-03 15:20:27,748 django.server 22396 31840 "GET /design/images/Red.jpeg HTTP/1.1" 200 2476436

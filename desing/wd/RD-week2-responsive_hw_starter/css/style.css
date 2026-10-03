@@ -46,14 +46,13 @@ div{
 
 
 
-@media (min-width: 43.75em) {
+/* Query #1 - Tablet View (772px)48.25em is approximately
+ equal to 772px when the default browser font size is 16px (48.25 × 16 = 772). So both values can be used for the same breakpoint. */
+@media (min-width: 48.25em) {
+
     body {
         background: green;
     }
-}
-
-/* Query #1 - Tablet View (772px) */
-@media (min-width: 48.25em) {
     .grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -64,10 +63,14 @@ div{
     }
 }
 
-/* Query #2 - Large Screen View (998px) */
+/* Query #2 - Large Screen View (998px) see above */
 @media (min-width: 62.375em) {
     .grid {
         grid-template-columns: repeat(3, 1fr);
+
+    }
+    .grid img {
+        max-height: 45vh;
     }
 }
 
